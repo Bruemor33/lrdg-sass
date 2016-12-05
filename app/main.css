@@ -1,6 +1,12 @@
 
 
 
+/***********************************************************************************************
+Landing Page
+***********************************************************************************************/
+
+
+
 img {
   max-width: 100%;
 }
@@ -170,6 +176,69 @@ Unordered List Styling
     font-size: 40px;
   }
 }
+
+
+
+
+/*********************************************************************
+Navigation
+*********************************************************************/
+
+
+
+#site-nav {
+  position: fixed;
+  top: 300px;
+  width: 100%;
+  z-index: 10;
+}
+
+
+.nav-items {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+}
+
+.company-logo {
+  display: inline-block;
+}
+
+.company-logo a {
+  height: 50px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: 'Poppins', serif;
+  display: inline-block;
+}
+
+.overview {
+  margin-left: 40px;
+  display: inline-block;
+}
+
+.overview:hover {
+  color: #000;
+  background-color: #AFB38A;
+  background-size: contain;
+  height: 50px;
+}
+
+.projects {
+  display: inline-block;
+}
+
+.studio {
+  display: inline-block;
+}
+
+.contact {
+  display: inline-block;
+}
+
+
 
 
 

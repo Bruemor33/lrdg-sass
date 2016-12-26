@@ -13,7 +13,7 @@ h1 {
 
 
 /*********************************************************************************************
-Overview Page
+Projects Page
 *********************************************************************************************/
 
 
@@ -26,8 +26,417 @@ body {
 }
 
 
+
+
+
+/***********************************************************************************************
+Projects Page
+***********************************************************************************************/
+
+
+
+
+body {
+  background-color: #2E2E2E;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.project-one-container {
+  margin-top: 40px;
+  // padding-left: 10px;
+  // padding-right: 10px;
+}
+
+.page-background {
+  background-image: url('../images/background-bench.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  // margin-left: -70px;
+}
+
+
+
+/*************************************************************
+Plaza at University
+*************************************************************/
+
+.plaza-landing {
+  /*// width: 200px;
+  // height: 200px;
+  // background-image: url('../images/1-plaza.jpg');
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // color: #fff;*/
+  /*/ margin-right: 10px;*/
+  margin-bottom: 10px;
+  /*// padding: 0;*/
+}
+.plaza-landing a {
+  text-decoration: none;
+  color: #FFF;
+}
+.plaza-landing h3 {
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.plaza-landing p {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 10px;
+}
+
+
+.hover-effect-2 {
+  position: relative;
+  width: 250px;
+  height: 167px;
+  overflow: hidden;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.hover-effect-2 p, .hover-effect-2 h3 {
+  color: #FFF;
+  padding: 2px;
+  left: -20px;
+  top: 2px;
+  position: relative;
+}
+.effect img {
+  position:absolute;
+  left:0;
+  bottom:0;
+  cursor:pointer;
+  /*// margin:-12px 0;*/
+  -webkit-transition:bottom .3s ease-in-out;
+  -moz-transition:bottom .3s ease-in-out;
+  -o-transition:bottom .3s ease-in-out;
+  transition:bottom .3s ease-in-out
+}
+.effect img.top:hover {
+  bottom: -108px;
+  padding-top: 100px;
+}
+h2.zero, p.zero {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*************************************************************
+Nona Park Landing
+*************************************************************/
+
+.nonapark-landing {
+  /*// width: 200px;
+  // height: 200px;
+  // // background-image: url('../images/5-nona-park-village.jpg');
+  // // background-size: cover;
+  // // background-position: 50% 50%;
+  // display: inline-block;
+  // margin-right: 10px;*/
+  margin-bottom: 10px;
+  color: #FADCAE;
+}
+.nonapark-thumbnail {
+  /*// width: 200px;
+  // height: 200px;
+  // display: inline-block;
+  // position: relative;
+  // z-index: 10;
+  // margin: -15px 0;*/
+}
+.nonapark-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.nonapark-landing h3 {
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.nonapark-landing p {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+  padding-top: -3px;
+}
+
+
+
+
+/*************************************************************
+Kindred
+*************************************************************/
+
+.kindred-writeup {
+  /*// width: 200px;
+  // height: 200px;
+  // background-image: url('../images/emily-concept-1.jpg');
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // display: inline-block;*/
+  border-radius: 15px;
+  margin-bottom: 10px;
+  color: #FADCAE;
+
+}
+.kindred-writeup a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+
+.transparent-background {
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+  background-color: rgba( 0, 0, 0, 0.4);
+  position: relative;
+  bottom: 20px;
+  right: 15px;
+  -webkit-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.85);
+}
+
+.kindred-writeup h3 {
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.kindred-writeup p {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+/*************************************************************
+Waterleigh
+*************************************************************/
+
+.waterleigh-landing {
+  /*// width: 200px;
+  // height: 200px;
+  // background-image: url('../images/emily-concept-2.jpg');
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // display: inline-block;
+  // margin-right: 40px;*/
+  margin-bottom: 10px;
+  color: #FADCAE;
+}
+.waterleigh-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.waterleigh-landing h3 {
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.waterleigh-landing p {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+
+/*************************************************************
+Sea Isle
+*************************************************************/
+
+.seaisle-landing {
+  /*// width: 200px;
+  // height: 200px;
+  // background-image: url('../images/tn-sea-isle.jpg');
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // color: #fff;
+  // margin-right: 10px;*/
+  margin-bottom: 10px;
+}
+.seaisle-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.seaisle-landing h3 {
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.seaisle-landing p {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+/*************************************************************
+Altis at Sandlake
+*************************************************************/
+
+.altis-landing {
+  /*// width: 200px;
+  // height: 200px;
+  // background-image: url('../images/emily-concept-3.jpg');
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // color: #fff;
+  // margin-right: 40px;*/
+  margin-bottom: 10px;
+}
+.altis-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.altis-landing h3 {
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.altis-landing p {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+/*************************************************************
+Dwell at Nona Place
+*************************************************************/
+
+.dwell-landing {
+  /*// width: 200px;
+  // height: 200px;
+  // background-image: url('../images/emily-concept-4.jpg');
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // color: #fff;
+  // margin-right: 40px;*/
+  margin-bottom: 10px;
+}
+.dwell-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.dwell-landing h3 {
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.dwell-landing p {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+
+
+
+/*************************************************************
+Las Ventanas
+*************************************************************/
+
+
+
+
+.ventanas-landing {
+  margin-bottom: 10px;
+}
+
+.ventanas-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.ventanas-landing h3 {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.ventanas-landing p {
+  font-family: "Poppins", serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+
+
+/*************************************************************
+Las Brisas
+*************************************************************/
+
+
+
+
+.brisas-landing {
+  margin-bottom: 50px;
+}
+
+.brisas-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.brisas-landing h3 {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.brisas-landing p {
+  font-family: "Poppins", serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+
+
+/***********************************************************************************************
+Projects Page Media Queries
+***********************************************************************************************/
+
+
+
+
 /*********************************************************************************************
-Overview Page
+Projects Page
 *********************************************************************************************/
 
 

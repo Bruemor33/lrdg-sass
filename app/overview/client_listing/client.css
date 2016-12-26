@@ -18,6 +18,85 @@ body {
 }
 
 
+#page-background {
+  background-image: url('../../images/overview-background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.title {
+  position: fixed;
+  top: 20px;
+  width: 500px;
+  height: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: -5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FFF;
+  font-family: 'Poppins', serif;
+  font-weight: 300;
+  font-size: 44px;
+}
+
+.statement {
+  position: relative;
+  top: 91.5px;
+  width: 980px;
+  height: 420px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FFF;
+  font-family: 'Poppins', serif;
+  font-weight: 300;
+}
+
+li {
+  list-style: none;
+}
+
+.block-one {
+  display: inline-block;
+}
+
+.block-two {
+  display: inline-block;
+}
+
+.block-three {
+  display: inline-block;
+}
+
+.client-listing-catagory {
+  font-size: 18px;
+  font-weight: 300px;
+  color: #FFF;
+}
+
+.client-names {
+  margin-bottom: 28px;
+  line-height: 10px;
+}
+
+/*.clients-image {
+  background-image: url('../../images/1-clients.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 420px;
+  position: relative;
+  top: 92px;
+  /*display: inline-block;*/
+
+
+
 /*********************************************************************************************
 Landscape Architecture Page
 *********************************************************************************************/

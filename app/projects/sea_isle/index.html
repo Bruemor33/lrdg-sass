@@ -16,7 +16,79 @@
 
     <div id="imagehere">
 
-      <h1>hello world</h1>
+      <div id="sea-isle-background" class="container-fluid">
+        <div class="page-container col-md-12">
+          <div id="main-nav" class="sea-isle-writeup">
+            <div class="project-nav">
+              <h2 class="project-title">Sea Isle</h2>
+              <ul class="image-links">
+
+                <li class="image-list-item" role="button">
+                  <Link activeClass="active" class="image-two" to="image-two" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="image-list-item" role="button">
+                  <Link activeClass="active" class="image-three" to="image-three" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="image-list-item" role="button">
+                  <Link activeClass="active" class="image-four" to="image-four" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="image-list-item" role="button">
+                  <Link activeClass="active" class="image-one" to="image-one" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
+
+              </ul>
+            </div>
+            <p>Orange County, FL</p>
+            <p id="summary" onClick={this.handleClick} class="info-click-event" role="button">
+              Project Info<span class="arrow"><i class="fa fa-sort-desc fa-2x" aria-hidden="true"></i></span>
+            </p>
+            <div id="sea-isle-summary" class="dropdown-menu">
+              <div class="summary-container">
+                <div class="project-type"><p>Project Type: Multi-Family Residential</p><br/></div>
+                <div class="client-type"><p>Client: Epoch Properties</p><br/></div>
+                <div class="design-team">
+                  <h4 class="design-title">Design Team</h4>
+                  <ul class="team-list">
+                    <li>Land Resource Design Group, Inc.</li>
+                    <li>Davidson Design Group, Inc.</li>
+                    <li>Slocum Platts Architects</li>
+                  </ul>
+                </div>
+                <div class="project-services">
+                  <h4 class="services-title">Project Services:</h4>
+                  <ul class="services-list">
+                    <li>Hardscape Design</li>
+                    <li>Landscape Design</li>
+                    <li>Lighting Design</li>
+                  </ul>
+                </div>
+                <div class="project-summary"><p>
+                  Located within the Sea World Orlando Design Corridor, Sea Isle is a coastal inspired, multi-family community with sand, landscape, bold colored accents, and rich textures used to create a unique, resort-style sense of place.  Amenities near the clubhouse were designed on axis with different clubhouse architectural elements to maximize space efficacy, views, and use.  In addition to the 356 units, the design program includes a resort style swimming pool, dog park, outdoor fireplace, grill stations, dining area, gated entrance feature, custom columns, decorative paving, and lush landscaping.
+                </p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="image-one"></div>
+        <div id="image-two"></div>
+        <div id="image-three"></div>
+        <div id="image-four"></div>
+      </div>
 
       <div class="site-navigation container-fluid">
         <nav id="site-nav" class="row">
@@ -26,23 +98,23 @@
             </li>
 
             <li class="overview">
-              <a href="overview/index.html">Practice</a>
+              <a href="../../overview/index.html">Practice</a>
             </li>
 
             <li class="projects">
-              <a href="projects/index.html">Projects</a>
+              <a href="../index.html">Projects</a>
             </li>
 
             <li class="studio">
-              <a href="studio/index.html">Studio</a>
+              <a href="../../studio/index.html">Studio</a>
             </li>
 
             <li class="contact">
-              <a href="contant/index.html">Contact</a>
+              <a href="../../contact/index.html">Contact</a>
             </li>
 
             <li class="company-name">
-              <a href="#">Land Resource Design Group</a>
+              <a href="../../index.html">Land Resource Design Group</a>
             </li>
 
           </ul>

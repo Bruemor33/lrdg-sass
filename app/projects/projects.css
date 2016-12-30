@@ -25,6 +25,10 @@ body {
   color: black;
 }
 
+li {
+  list-style: none;
+}
+
 
 
 
@@ -95,6 +99,9 @@ Plaza at University
   padding-left: 10px;
 }
 
+.top {
+  width: 250px;
+}
 
 .hover-effect-2 {
   position: relative;

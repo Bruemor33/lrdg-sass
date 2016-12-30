@@ -5,7 +5,9 @@
 
   var summaryToggle = document.getElementById('summary').addEventListener('click', function(event){
 
-    document.getElementById('summary').style.display = ' ';
+    console.log('I was clicked');
+
+    $('#plaza-summary').toggle('slow');
 
   })
 

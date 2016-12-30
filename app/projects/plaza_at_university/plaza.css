@@ -8,6 +8,13 @@
 Plaza at University Styling
 ***************************************************************************************/
 
+
+
+li {
+  list-style: none;
+}
+
+
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
@@ -33,7 +40,7 @@ Plaza at University Styling
 /** Project Title **/
 .plaza-title {
   display: inline-block;
-  margin-right: 70px;
+  margin-right: 20px;
 }
 .project-nav {
   height: 50px;
@@ -97,32 +104,36 @@ Plaza at University Styling
 
 /** Project Background Images **/
 #plaza-one {
-  background-image: url('../images/1-plaza.png');
+  background-image: url('../../images/1-plaza.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  height: 615px;
 }
 #plaza-two {
-  background-image: url('../images/2-plaza.png');
+  background-image: url('../../images/2-plaza.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  height: 615px;
 }
 #plaza-three {
-  background-image: url('../images/3-plaza.png');
+  background-image: url('../../images/3-plaza.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  height: 615px;
 }
 #plaza-four {
-  background-image: url('../images/4-plaza.png');
+  background-image: url('../../images/4-plaza.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  height: 615px;
 }
 
 
@@ -174,9 +185,28 @@ Plaza at University Styling
 }
 .project-type {
   margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .client-type {
   margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.design-team {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.project-services {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.project-summary {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 

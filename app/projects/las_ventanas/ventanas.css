@@ -1,5 +1,215 @@
 
 
+/***************************************************************************************
+Plaza at University Styling
+***************************************************************************************/
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.sea-isle-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.row {
+  margin-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.arrow {
+  color: #FFF;
+  padding-left: 8px;
+}
+
+.page-container {
+  padding: 0;
+}
+
+
+
+#sea-isle-background {
+
+}
+/** Project Title **/
+.ventanas-title {
+  display: inline-block;
+  margin-right: 145px;
+}
+.project-nav {
+  height: 50px;
+}
+.image-links {
+  display: inline;
+}
+.ventanas-list-item {
+  display: inline;
+  margin-left: 10px;
+}
+.ventanas-one {
+  display: inline-block;
+  border: 1px solid #fff;
+  height: 20px;
+  width: 20px;
+}
+.ventanas-one:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #FADCAE;
+}
+.ventanas-two {
+  display: inline-block;
+  border: 1px solid #fff;
+  height: 20px;
+  width: 20px;
+}
+.ventanas-two:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #AFB38A;
+}
+.ventanas-three {
+  display: inline-block;
+  border: 1px solid #fff;
+  height: 20px;
+  width: 20px;
+}
+.ventanas-three:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #E1D6CC;
+}
+.ventanas-four {
+  display: inline-block;
+  border: 1px solid #fff;
+  height: 20px;
+  width: 20px;
+}
+.ventanas-four:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #A76459;
+}
+.image-nav {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #fff;
+}
+
+/** Project Background Images **/
+#ventanas-one {
+  background-image: url('../../images/1-las-ventanas.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+#ventanas-two {
+  background-image: url('../../images/2-las-ventanas.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+#ventanas-three {
+  background-image: url('../../images/3-las-ventanas.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+#ventanas-four {
+  background-image: url('../../images/4-las-ventanas.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+
+
+/** Project Write Up Section **/
+.writeup {
+  position: fixed;
+  top: 20px;
+  width: 500px;
+  height: 85px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: -5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #E1D6CC;
+  font-family: 'Poppins', serif;
+  font-weight: 300;
+}
+.ventanas-writeup h2 {
+  margin-top: 10px;
+}
+.ventanas-writeup p {
+  display: inline;
+}
+.ventanas-click-event {
+  display: inline-block;
+  margin-left: 245px;
+}
+.info {
+  display: inline-block;
+  margin-left: 146px;
+}
+.glyphicon {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin-left: 10px;
+}
+
+#ventanas-summary {
+  display: none;
+  width: 500px;
+  height: 400px;
+  overflow-y: scroll;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FFF;
+  font-family: 'Poppins', serif;
+  font-weight: 300;
+  transition: ease-in;
+}
+.project-type {
+  margin-bottom: 10px;
+}
+.client-type {
+  margin-bottom: 15px;
+}
+.design-team {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.project-services {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.project-summary {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+
+
+
+/***************************************************************************************
+Plaza at University Styling
+***************************************************************************************/
+
+
 /*********************************************************************
 Navigation
 *********************************************************************/

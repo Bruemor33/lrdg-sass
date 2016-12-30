@@ -16,7 +16,78 @@
 
     <div id="imagehere">
 
-      <h1>hello world</h1>
+      <div id="sea-isle-background" class="container-fluid">
+        <div class="page-container col-md-12">
+          <div id="main-nav" class="writeup">
+            <div class="project-nav">
+              <h2 class="ventanas-title">Las Ventanas</h2>
+              <ul class="image-links">
+
+                <li class="ventanas-list-item" role="button">
+                  <Link activeClass="active" class="ventanas-two" to="ventanas-two" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="ventanas-list-item" role="button">
+                  <Link activeClass="active" class="ventanas-three" to="ventanas-three" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="ventanas-list-item" role="button">
+                  <Link activeClass="active" class="ventanas-four" to="ventanas-four" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="ventanas-list-item" role="button">
+                  <Link activeClass="active" class="ventanas-one" to="ventanas-one" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
+
+              </ul>
+            </div>
+            <p>Boynton Beach, FL</p>
+            <p id="summary" onClick={this.handleClick} class="ventanas-click-event" role="button">
+              Project Info<span class="arrow"><i class="fa fa-sort-desc fa-2x" aria-hidden="true"></i></span>
+            </p>
+            <div id="ventanas-summary" class="dropdown-menu">
+              <div class="summary-container">
+                <div class="project-type"><p>Project Type: Mixed Use Development – Mid Rise</p><br/></div>
+                <div class="client-type"><p>Client: Epoch Residential</p><br/></div>
+                <div class="design-team">
+                  <h4 class="design-title">Design Team</h4>
+                  <ul class="team-list">
+                    <li>Land Resource Design Group, Inc.</li>
+                  </ul>
+                </div>
+                <div class="project-services">
+                  <h4 class="services-title">Project Services:</h4>
+                  <ul class="services-list">
+                    <li>Hardscape Design</li>
+                    <li>Landscape Design</li>
+                    <li>Lighting Design</li>
+                    <li>Wayfinding</li>
+                  </ul>
+                </div>
+                <div class="project-summary"><p>
+                  Las Ventanas is a Mediterranean style mix-use development located in Boynton Beach, FL.  It features two five-story towers, each with their own courtyard, a private parking garage, a variety of apartment styles and townhomes, retail shopping, restaurants, and professional offices.  Both courtyard designs were inspired by different interpretations of Las Ventanas, which is Spanish for “The Windows.”  One courtyard has curvilinear geometries implying movement through the window, while the other courtyard is beautifully formal suggesting views from the windows.  The design program included resort style swimming pools, spas, dining areas, lounge areas, outdoor grill areas, outdoor fire pits, vehicular entrance features, decorative paving, and signage.  Landscape, hardscape, lighting, and irrigation systems work in unison with the architecture to accentuate the narrative of the Mediterranean theme.
+                </p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="ventanas-one"></div>
+        <div id="ventanas-two"></div>
+        <div id="ventanas-three"></div>
+        <div id="ventanas-four"></div>
+      </div>
 
       <div class="site-navigation container-fluid">
         <nav id="site-nav" class="row">
@@ -26,23 +97,23 @@
             </li>
 
             <li class="overview">
-              <a href="overview/index.html">Practice</a>
+              <a href="../../overview/index.html">Practice</a>
             </li>
 
             <li class="projects">
-              <a href="projects/index.html">Projects</a>
+              <a href="../index.html">Projects</a>
             </li>
 
             <li class="studio">
-              <a href="studio/index.html">Studio</a>
+              <a href="../../studio/index.html">Studio</a>
             </li>
 
             <li class="contact">
-              <a href="contant/index.html">Contact</a>
+              <a href="../../contant/index.html">Contact</a>
             </li>
 
             <li class="company-name">
-              <a href="#">Land Resource Design Group</a>
+              <a href="../../index.html">Land Resource Design Group</a>
             </li>
 
           </ul>
@@ -51,7 +122,8 @@
 
     </div>
 
-
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
   <script src="ventanas.js"></script>
   </body>
 </html>

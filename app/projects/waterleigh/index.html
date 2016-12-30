@@ -16,7 +16,83 @@
 
     <div id="imagehere">
 
-      <h1>hello world</h1>
+      <div id="sea-isle-background" class="container-fluid">
+        <div class="page-container col-md-12">
+          <div id="main-nav" class="writeup">
+            <div class="project-nav">
+              <h2 class="waterleigh-title">Waterleigh</h2>
+              <ul class="image-links">
+
+                <li class="waterleigh-list-item" role="button">
+                  <Link activeClass="active" class="waterleigh-two" to="waterleigh-two" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="waterleigh-list-item" role="button">
+                  <Link activeClass="active" class="waterleigh-three" to="waterleigh-three" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="waterleigh-list-item" role="button">
+                  <Link activeClass="active" class="waterleigh-four" to="waterleigh-four" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="waterleigh-list-item" role="button">
+                  <Link activeClass="active" class="waterleigh-one" to="waterleigh-one" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
+
+              </ul>
+            </div>
+            <p>Orange County, FL</p>
+            <p id="summary" onClick={this.handleClick} class="waterleigh-click-event" role="button">
+              Project Info<span class="arrow"><i class="fa fa-sort-desc fa-2x" aria-hidden="true"></i></span>
+            </p>
+            <div id="waterleigh-summary" class="dropdown-menu">
+              <div class="summary-container">
+                <div class="project-type"><p>Project Type: Single-Family Community Development</p><br/></div>
+                <div class="client-type"><p>Client:DR Horton, Inc.</p><br/></div>
+                <div class="design-team">
+                  <h4 class="design-title">Design Team</h4>
+                  <ul class="team-list">
+                    <li>Land Resource Design Group, Inc.</li>
+                    <li>VHB MillerSellen, Inc.</li>
+                    <li>Bio Tech Consulting, Inc.</li>
+                    <li>Allen & Company Inc.</li>
+                    <li>Universal Engineering Sciences</li>
+                  </ul>
+                </div>
+                <div class="project-services">
+                  <h4 class="services-title">Project Services:</h4>
+                  <ul class="services-list">
+                    <li>Community Visioning</li>
+                    <li>Community Naming, Branding, & Programming</li>
+                    <li>Full Landscape Architectural Services</li>
+                  </ul>
+                </div>
+                <div class="project-summary"><p>
+                  Waterleigh is a master-planned community nestled on the banks of scenic Hickorynut Lake in SW Orange County.  The name ‘Waterleigh’, which was born from this intrinsic pairing of water and land, is a combination of the words water and surname, leigh, which means meadow.  The community is centered around a commercial village core and central park system all interconnected with a trail system and multiple lake access points.  In addition to the 110 homes of phase one, the design program includes a Clubhouse amenity with a resort style swimming pool, dog park, community gardens, neighborhood parks, sculpture, streetscapes, tot lots, and multiple picnic areas.
+                </p>
+                <p>Phase 1 of Waterleigh was recently completed and the community is rapidly growing.  Known as “Marina Bay Village,” this phase focuses on celebrating its surroundings through the use of artistic elements and naturally inspired materials.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="waterleigh-one"></div>
+        <div id="waterleigh-two"></div>
+        <div id="waterleigh-three"></div>
+        <div id="waterleigh-four"></div>
+      </div>
 
       <div class="site-navigation container-fluid">
         <nav id="site-nav" class="row">
@@ -26,23 +102,23 @@
             </li>
 
             <li class="overview">
-              <a href="overview/index.html">Practice</a>
+              <a href="../../overview/index.html">Practice</a>
             </li>
 
             <li class="projects">
-              <a href="projects/index.html">Projects</a>
+              <a href="../index.html">Projects</a>
             </li>
 
             <li class="studio">
-              <a href="studio/index.html">Studio</a>
+              <a href="../../studio/index.html">Studio</a>
             </li>
 
             <li class="contact">
-              <a href="contant/index.html">Contact</a>
+              <a href="../../contant/index.html">Contact</a>
             </li>
 
             <li class="company-name">
-              <a href="#">Land Resource Design Group</a>
+              <a href="../../index.html">Land Resource Design Group</a>
             </li>
 
           </ul>
@@ -51,7 +127,8 @@
 
     </div>
 
-
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
   <script src="waterleigh.js"></script>
   </body>
 </html>

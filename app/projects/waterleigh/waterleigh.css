@@ -1,5 +1,220 @@
 
 
+
+/***************************************************************************************
+Altis at Sandlake page styling
+***************************************************************************************/
+
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.sea-isle-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.row {
+  margin-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.arrow {
+  color: #FFF;
+  padding-left: 8px;
+}
+
+.page-container {
+  padding: 0;
+}
+
+
+
+/** Project Title **/
+.waterleigh-title {
+  display: inline-block;
+  margin-right: 130px;
+}
+.project-nav {
+  height: 50px;
+}
+.image-links {
+  display: inline;
+}
+.waterleigh-list-item {
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.waterleigh-one {
+  display: inline-block;
+  border: 1px solid #FFF;
+  height: 20px;
+  width: 20px;
+}
+.waterleigh-one:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #FADCAE;
+}
+.waterleigh-two {
+  display: inline-block;
+  border: 1px solid #FFF;
+  height: 20px;
+  width: 20px;
+}
+.waterleigh-two:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #AFB38A;
+}
+.waterleigh-three {
+  display: inline-block;
+  border: 1px solid #FFF;
+  height: 20px;
+  width: 20px;
+}
+.waterleigh-three:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #E1D6CC;
+}
+.waterleigh-four {
+  display: inline-block;
+  border: 1px solid #FFF;
+  height: 20px;
+  width: 20px;
+}
+.waterleigh-four:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #A76459;
+}
+.image-nav {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #FFF;
+}
+
+
+
+#waterleigh-one {
+  background-image: url('../../images/1-waterleigh.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+#waterleigh-two {
+  background-image: url('../../images/2-waterleigh.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+#waterleigh-three {
+  background-image: url('../../images/3-waterleigh.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+#waterleigh-four {
+  background-image: url('../../images/4-waterleigh.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+
+
+/** Project Write Up Section **/
+.writeup {
+  position: fixed;
+  top: 20px;
+  width: 500px;
+  height: 85px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: -5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FFF;
+  font-family: 'Poppins', serif;
+  font-weight: 300;
+}
+.writeup h2 {
+  margin-top: 10px;
+}
+.writeup p {
+  display: inline;
+}
+.waterleigh-click-event {
+  display: inline-block;
+  margin-left: 240px;
+}
+.info {
+  display: inline-block;
+  margin-left: 146px;
+}
+.glyphicon {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin-left: 10px;
+}
+
+#waterleigh-summary {
+  display: none;
+  width: 500px;
+  height: 400px;
+  overflow-y: scroll;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FFF;
+  font-family: 'Poppins', serif;
+  font-weight: 300;
+  transition: ease-in;
+}
+.project-type {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.client-type {
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.design-team {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.project-services {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.project-summary {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+
+
+
+/***************************************************************************************
+Altis at Sandlake page styling
+***************************************************************************************/
+
+
 /*********************************************************************
 Navigation
 *********************************************************************/

@@ -16,7 +16,79 @@
 
     <div id="imagehere">
 
-      <h1>hello world</h1>
+      <div id="sea-isle-background" class="container-fluid">
+        <div class="page-container col-md-12">
+          <div id="main-nav" class="writeup">
+            <div class="project-nav">
+              <h2 class="nona-title">Nona Park Village</h2>
+              <ul class="image-links">
+
+                <li class="nona-list-item" role="button">
+                  <Link activeClass="active" class="nona-two" to="nona-two" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="nona-list-item" role="button">
+                  <Link activeClass="active" class="nona-three" to="nona-three" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="nona-list-item" role="button">
+                  <Link activeClass="active" class="nona-four" to="nona-four" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="nona-list-item" role="button">
+                  <Link activeClass="active" class="nona-one" to="nona-one" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
+
+              </ul>
+            </div>
+            <p>Orlando, FL</p>
+            <p id="summary" onClick={this.handleClick} class="nona-click-event" role="button">
+              Project Info<span class="arrow"><i class="fa fa-sort-desc fa-2x" aria-hidden="true"></i></span>
+            </p>
+            <div id="nona-park-summary" class="dropdown-menu">
+              <div class="summary-container">
+                <div class="project-type"><p>Project Type: Multi-Family Community</p><br/></div>
+                <div class="client-type"><p>Client: Epoch Properties</p><br/></div>
+                <div class="design-team">
+                  <h4 class="design-title">Design Team</h4>
+                  <ul class="team-list">
+                    <li>Land Resource Design Group, Inc.</li>
+                    <li>Dave Schmitt Engineering, Inc.</li>
+                    <li>Charlin, Brock & Associates</li>
+                  </ul>
+                </div>
+                <div class="project-services">
+                  <h4 class="services-title">Project Services:</h4>
+                  <ul class="services-list">
+                    <li>Hardscape Design</li>
+                    <li>Landscape Design</li>
+                    <li>Lighting Design</li>
+                  </ul>
+                </div>
+                <div class="project-summary"><p>
+                  Located in SE Orlando and surrounded by the elegant settings of the Lake Nona District, Nona Park Village is a multi-family community that exhibits the essence of Florida living.  The contemporary design demonstrates the importance and power of axial relationships as a means to organize program elements to maximize the use of space.  The appropriate use of color and texture with both the landscape and hardscape elements help define the spaces and guide residence along providing a true experiential landscape.  In addition to the 303 units, the design program includes a resort style swimming pool, dog park, outdoor fireplace, grill stations, dining area, beach hammocks, bocce ball courts, community garden, custom columns, trellis structures, decorative paving, and lush landscaping.
+                </p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="nona-one"></div>
+        <div id="nona-two"></div>
+        <div id="nona-three"></div>
+        <div id="nona-four"></div>
+      </div>
 
       <div class="site-navigation container-fluid">
         <nav id="site-nav" class="row">

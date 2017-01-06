@@ -13,40 +13,92 @@
   </head>
   <body>
 
-    <h1>Hello World</h1>
+    <div class="container-fluid">
+      <div class="studio-background"></div>
+      <div class="row">
+        <div class="title">
+          <h2>Studio Leaders</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="studio-content-container col-md-12">
+          <div class="barry col-md-4">
+            <div class="barry-photo" role="button" data-toggle="modal" data-target="#barryModal"></div>
+            <div class="barry-title">
+              <h5 class="title-spacing">Barry Rymer, PLA</h5>
+              <h5>Founder - Managing Principal</h5>
+            </div>
+            <div class="modal fade" id="barryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <h4 class="staff-title">Barry H. Rymer, PLA</h4>
 
+                  <p class="barry-first-paragraph">Barry began his landscape architecture career over 30 years ago in Central Florida. Having received his BLA from the University of Florida in 1985, he sought after a fully integrated understanding of the profession and spent much of his career working for leading multi-disciplinary design firms. It was with these experiences where he learned the value of a coordinated design effort with all design disciplines in developing buildable and lasting solutions.</p>
+
+                  <p class="barry-second-paragraph">In the spring of 2011, Barry founded Land Resource Design Group. The establishment of the firm was inspired by his core belief of viewing land as an extremely valuable resource. Barry works closely with his clients and leadership team to collaborate with other design disciplines in providing thoughtful design, carefully crafted execution, and timeless value in the communities they create. Over the years, he has had the privilege to work with award-wining master-planned community developers, leading national builders, industry-leading multi-family developers and world leaders in theme park entertainment.</p>
+
+                  <p class="barry-third-paragraph">Barry loves his role as husband and father to his wife of thirty years and his three talented and now adult children. In his spare time, he is a big sports fan, enjoys managing his daughter’s golf career and serving up some tasty BBQ from his prized Big Green Egg.</p>
+                  <div class="modal-close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="scott col-md-4">
+            <div class="scott-photo" role="button" data-toggle="modal" data-target="#scottModal"></div>
+            <div class="scott-title">
+              <h5 class="title-spacing">Scott Moorman</h5>
+              <h5>Sr. Planner/Project Manager</h5>
+            </div>
+            <div class="modal fade" id="scottModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <h4 class="staff-title">Scott Moorman, Sr. Planner/Project Manager</h4>
+
+                  <p class="scott-first-paragraph">Since Scott graduated from the University of Florida’s school of Landscape Architecture in 1993, he has compiled over 20 years of experience practicing both Landscape Architect and Land Planning in the Central Florida arena. </p>
+
+                  <p class="scott-second-paragraph">Prior to joining LRDG, he worked at several multi-disciplinary Civil and Architectural firms and has developed a strong working knowledge of each facet of the design, entitlements, production and construction processes.  His experience spans nearly all levels of project styles that a Landscape Architect could hope to work on during their career.  DRI development, site planning and entitlements, rezonings and comp plan amendments, preliminary engineering and the full gamut of Landscape Architectural services for both private and public sector Clients. </p>
+
+                  <p class="scott-third-paragraph">Here at LRDG, Scott specializes in design and construction plans preparation, project management, consultant team coordination, plans processing, government approvals, construction administration and services marketing to our Client base.</p>
+
+                  <p class="scott-fourth-paragraph">Away from the office Scott is an avid Outdoorsman and enjoys spending time with his fiancé and adult son hunting, fishing and participating in shooting sports.</p>
+                  <div class="modal-close" onClick={this.hideScott}>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="site-navigation container-fluid">
       <nav id="site-nav" class="row">
-        <ul class="nav-items col-md-12">
-          <li class="company-logo">
-            <a href="#"><img src="../images/small-lrdg-logo.png" class="logo" /></a>
-          </li>
+        <div class="nav-items col-md-12">
 
-          <li class="overview">
-            <a href="../overview/index.html">Practice</a>
-          </li>
+          <a href="#"><img src="../images/small-lrdg-logo.png" class="logo" /></a>
 
-          <li class="projects">
-            <a href="../projects/index.html">Projects</a>
-          </li>
+          <a href="../overview/index.html" class="overview">Practice</a>
 
-          <li class="studio">
-            <a href=studio/index.html>Studio</a>
-          </li>
+          <a href="../projects/index.html" class="projects">Projects</a>
 
-          <li class="contact">
-            <a href="../contact/index.html">Contact</a>
-          </li>
+          <a href="index.html" class="studio">Studio</a>
 
-          <li class="company-name">
-            <a href="../index.html">Land Resource Design Group</a>
-          </li>
+          <a href="../contact/index.html" class="contact">Contact</a>
 
-        </ul>
+          <a href="../index.html" class="landing"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>
+
+        </div>
       </nav>
     </div>
 
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
   <script src="studio.js"></script>
   </body>
 </html>

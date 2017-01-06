@@ -30,65 +30,62 @@ li {
 }
 
 
-
-#sea-isle-background {
-
-}
 /** Project Title **/
-.ventanas-title {
+.dwell-title {
   display: inline-block;
-  margin-right: 145px;
+  margin-right: 125px;
 }
 .project-nav {
   height: 50px;
 }
 .image-links {
   display: inline;
+  padding-left: 1px;
 }
-.ventanas-list-item {
-  display: inline;
+.dwell-list-item {
+  display: inline-block;
   margin-left: 10px;
 }
-.ventanas-one {
+.dwell-one {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
 }
-.ventanas-one:hover {
+.dwell-one:hover {
   height: 20px;
   width: 20px;
   background-color: #FADCAE;
 }
-.ventanas-two {
+.dwell-two {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
 }
-.ventanas-two:hover {
+.dwell-two:hover {
   height: 20px;
   width: 20px;
   background-color: #AFB38A;
 }
-.ventanas-three {
+.dwell-three {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
 }
-.ventanas-three:hover {
+.dwell-three:hover {
   height: 20px;
   width: 20px;
   background-color: #E1D6CC;
 }
-.ventanas-four {
+.dwell-four {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
 }
-.ventanas-four:hover {
+.dwell-four:hover {
   height: 20px;
   width: 20px;
   background-color: #A76459;
@@ -97,40 +94,6 @@ li {
   height: 20px;
   width: 20px;
   border: 1px solid #fff;
-}
-
-/** Project Background Images **/
-#ventanas-one {
-  background-image: url('../../images/1-las-ventanas.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 620px;
-}
-#ventanas-two {
-  background-image: url('../../images/2-las-ventanas.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 620px;
-}
-#ventanas-three {
-  background-image: url('../../images/3-las-ventanas.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 620px;
-}
-#ventanas-four {
-  background-image: url('../../images/4-las-ventanas.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 620px;
 }
 
 
@@ -144,19 +107,19 @@ li {
   padding-right: 15px;
   padding-top: -5px;
   background-color: rgba(0, 0, 0, 0.7);
-  color: #E1D6CC;
+  color: #FFF;
   font-family: 'Poppins', serif;
   font-weight: 300;
 }
-.ventanas-writeup h2 {
+.writeup h2 {
   margin-top: 10px;
 }
-.ventanas-writeup p {
+.writeup p {
   display: inline;
 }
-.ventanas-click-event {
+.dwell-click-event {
   display: inline-block;
-  margin-left: 245px;
+  margin-left: 240px;
 }
 .info {
   display: inline-block;
@@ -169,22 +132,26 @@ li {
   margin-left: 10px;
 }
 
-#ventanas-summary {
+#dwell-summary {
   display: none;
   width: 500px;
   height: 400px;
-  overflow-y: scroll;
   background-color: rgba(0, 0, 0, 0.7);
   color: #FFF;
   font-family: 'Poppins', serif;
   font-weight: 300;
   transition: ease-in;
+  overflow-y: scroll;
 }
 .project-type {
   margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .client-type {
   margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .design-team {
   padding-left: 10px;
@@ -199,6 +166,39 @@ li {
   padding-right: 10px;
 }
 
+
+#dwell-one {
+  background-image: url('../../images/1-las-ventanas.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+#dwell-two {
+  background-image: url('../../images/2-las-ventanas.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+#dwell-three {
+  background-image: url('../../images/3-las-ventanas.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+#dwell-four {
+  background-image: url('../../images/4-las-ventanas.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
 
 
 

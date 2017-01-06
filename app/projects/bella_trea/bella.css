@@ -1,5 +1,207 @@
 
 
+
+
+/***************************************************************************************
+Bella Trae page styling
+***************************************************************************************/
+
+
+
+
+
+.bella-trae-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+/** Project Title **/
+.bella-title {
+  display: inline-block;
+  margin-right: 180px;
+}
+.project-nav {
+  height: 50px;
+}
+.image-links {
+  display: inline;
+  padding-left: 1px;
+}
+.bella-list-item {
+  display: inline-block;
+  margin-left: 10px;
+}
+.bella-one {
+  display: inline-block;
+  border: 1px solid #fff;
+  height: 20px;
+  width: 20px;
+}
+.bella-one:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #FADCAE;
+}
+.bella-two {
+  display: inline-block;
+  border: 1px solid #fff;
+  height: 20px;
+  width: 20px;
+}
+.bella-two:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #AFB38A;
+}
+.bella-three {
+  display: inline-block;
+  border: 1px solid #fff;
+  height: 20px;
+  width: 20px;
+}
+.bella-three:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #E1D6CC;
+}
+.bella-four {
+  display: inline-block;
+  border: 1px solid #fff;
+  height: 20px;
+  width: 20px;
+}
+.bella-four:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #A76459;
+}
+.image-nav {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #fff;
+}
+
+
+/** Project Write Up Section **/
+.writeup {
+  position: fixed;
+  top: 20px;
+  width: 500px;
+  height: 85px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: -5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FFF;
+  font-family: 'Poppins', serif;
+  font-weight: 300;
+}
+.writeup h2 {
+  margin-top: 10px;
+}
+.writeup p {
+  display: inline;
+}
+.bella-click-event {
+  display: inline-block;
+  margin-left: 230px;
+}
+.info {
+  display: inline-block;
+  margin-left: 146px;
+}
+.glyphicon {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin-left: 10px;
+}
+
+#bella-summary {
+  display: none;
+  width: 500px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-family: 'Poppins', serif;
+  font-weight: 300;
+  transition: ease-in;
+  overflow-y: scroll;
+}
+.project-type {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.client-type {
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.design-team {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.project-services {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.project-summary {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+#bella-one {
+  background-image: url('../../images/1-bella-trae.png');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+#bella-two {
+  background-image: url('../../images/2-bella-trae.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+#bella-three {
+  background-image: url('../../images/3-bella-trae.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+#bella-four {
+  background-image: url('../../images/4-bella-trae.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+
+
+
+
+
+
+
+
+/***************************************************************************************
+Bella Trae page styling
+***************************************************************************************/
+
+
 /*********************************************************************
 Navigation
 *********************************************************************/

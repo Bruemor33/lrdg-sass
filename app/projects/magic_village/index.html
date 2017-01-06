@@ -16,7 +16,78 @@
 
     <div id="imagehere">
 
-      <h1>hello world</h1>
+      <div id="sea-isle-background" class="container-fluid">
+        <div class="magic-village-container col-md-12">
+          <div id="main-nav" class="writeup">
+            <div class="project-nav">
+              <h2 class="magic-title">Magic Village</h2>
+              <ul class="image-links">
+
+                <li class="magic-list-item" role="button">
+                  <Link activeClass="active" class="magic-two" to="magic-two" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="magic-list-item" role="button">
+                  <Link activeClass="active" class="magic-three" to="magic-three" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="magic-list-item" role="button">
+                  <Link activeClass="active" class="magic-four" to="magic-four" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="magic-list-item" role="button">
+                  <Link activeClass="active" class="magic-one" to="magic-one" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
+
+              </ul>
+            </div>
+            <p>Osceola County, FL</p>
+            <p id="summary" onClick={this.handleClick} class="magic-click-event" role="button">
+              Project Info<span class="arrow"><i class="fa fa-sort-desc fa-2x" aria-hidden="true"></i></span>
+            </p>
+            <div id="magic-summary" class="dropdown-menu">
+              <div class="summary-container">
+                <div class="project-type"><p>Project Type: Multi-Family Residential – Vacation Rental</p><br/></div>
+                <div class="client-type"><p>Client: Magic Village</p><br/></div>
+                <div class="design-team">
+                  <h4 class="design-title">Design Team:</h4>
+                  <ul class="team-list">
+                    <li>Land Resource Design Group, Inc.</li>
+                  </ul>
+                </div>
+                <div class="project-services">
+                  <h4 class="services-title">Project Services:</h4>
+                  <ul class="services-list">
+                    <li>Land Planning</li>
+                    <li>Hardscape Design</li>
+                    <li>Landscape Design</li>
+                    <li>Lighting Design</li>
+                  </ul>
+                </div>
+                <div class="project-summary"><p>
+                  Located adjacent to Disney’s Animal Kingdom and Hollywood Studios, Magic Village is a South American inspired oasis consisting of Brazilian forms, textures, colors, and materials that create a rich urban fabric and resort-style experience.  The preservation and maximization of stunning views of Disney’s nightly fireworks was central to the design program.  This idea guided the orientation and adjacent plantings of the picnic, pool, and hammock areas.  LRDG’s role was to design a resort-style beach entry swimming pool, spa, picnic & grill area, lounge areas, decorative paving, and an entrance fountain feature complete with landscape, hardscape, and accent lighting in creating an unforgettable short-term rental experience.
+                </p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="magic-one"></div>
+        <div id="magic-two"></div>
+        <div id="magic-three"></div>
+        <div id="magic-four"></div>
+      </div>
 
       <div class="site-navigation container-fluid">
         <nav id="site-nav" class="row">
@@ -26,23 +97,23 @@
             </li>
 
             <li class="overview">
-              <a href="overview/index.html">Practice</a>
+              <a href="../../overview/index.html">Practice</a>
             </li>
 
             <li class="projects">
-              <a href="projects/index.html">Projects</a>
+              <a href="../index.html">Projects</a>
             </li>
 
             <li class="studio">
-              <a href="studio/index.html">Studio</a>
+              <a href="../../studio/index.html">Studio</a>
             </li>
 
             <li class="contact">
-              <a href="contant/index.html">Contact</a>
+              <a href="../../contant/index.html">Contact</a>
             </li>
 
             <li class="company-name">
-              <a href="#">Land Resource Design Group</a>
+              <a href="../../index.html">Land Resource Design Group</a>
             </li>
 
           </ul>
@@ -51,7 +122,8 @@
 
     </div>
 
-
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
   <script src="magic.js"></script>
   </body>
 </html>

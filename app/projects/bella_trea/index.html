@@ -16,7 +16,83 @@
 
     <div id="imagehere">
 
-      <h1>hello world</h1>
+      <div id="sea-isle-background" class="container-fluid">
+        <div class="bella-trae-container col-md-12">
+          <div id="main-nav" class="writeup">
+            <div class="project-nav">
+              <h2 class="bella-title">Bella Trae</h2>
+              <ul class="image-links">
+
+                <li class="bella-list-item" role="button">
+                  <Link activeClass="active" class="bella-two" to="bella-two" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="bella-list-item" role="button">
+                  <Link activeClass="active" class="bella-three" to="bella-three" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="bella-list-item" role="button">
+                  <Link activeClass="active" class="bella-four" to="bella-four" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="bella-list-item" role="button">
+                  <Link activeClass="active" class="bella-one" to="bella-one" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
+
+              </ul>
+            </div>
+            <p>Champion's Gate, FL</p>
+            <p id="summary" onClick={this.handleClick} class="bella-click-event" role="button">
+              Project Info<span class="arrow"><i class="fa fa-sort-desc fa-2x" aria-hidden="true"></i></span>
+            </p>
+            <div id="bella-summary" class="dropdown-menu">
+              <div class="summary-container">
+                <div class="project-type"><p>Project Type: Resort Residential</p><br/></div>
+                <div class="client-type"><p>Client: Pulte Homes</p><br/></div>
+                <div class="design-team">
+                  <h4 class="design-title">Design Team:</h4>
+                  <ul class="team-list">
+                    <li>Land Resource Design Group, Inc.</li>
+                  </ul>
+                </div>
+                <div class="project-services">
+                  <h4 class="services-title">Project Services:</h4>
+                  <ul class="services-list">
+                    <li>Community Theming</li>
+                    <li>Hardscape Design</li>
+                    <li>Landscape Design</li>
+                    <li>Irrigation Design</li>
+                  </ul>
+                </div>
+                <div class="project-summary">
+                  <p>
+                    Bella Trae, a Mediterranean-Style residential development, offers three housing types and provides a Del Webb lifestyle for the residents including the 12,500 sf clubhouse with a zero-entry pool and spa, a putting green, bocce ball courts, and access to numerous golf and tennis amenities. It is located within the mixed-use resort community of Champions Gate, the home of two Greg Norman Golf courses and the David Ledbetter Golf Academy.
+                  </p>
+                  <p>
+                    As the community name suggests, Italian themes were extracted to create a “beautiful” aesthetic starting with the stately elegance of Italian cypress trees working in concert with the Mediterranean-themed architectural facades of the community buildings. The main community intersection creates a strong sense of place where the four quadrants come together to celebrate the arrival point with Italian cypress trees planted in gravel beds, citrus trees in the median, gated entrances of stucco walls, accent columns with barreled-tiled roof caps to match the guardhouse, prominent signage, and fountains.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="bella-one"></div>
+        <div id="bella-two"></div>
+        <div id="bella-three"></div>
+        <div id="bella-four"></div>
+      </div>
 
       <div class="site-navigation container-fluid">
         <nav id="site-nav" class="row">
@@ -26,23 +102,23 @@
             </li>
 
             <li class="overview">
-              <a href="overview/index.html">Practice</a>
+              <a href="../../overview/index.html">Practice</a>
             </li>
 
             <li class="projects">
-              <a href="projects/index.html">Projects</a>
+              <a href="../index.html">Projects</a>
             </li>
 
             <li class="studio">
-              <a href="studio/index.html">Studio</a>
+              <a href="../../studio/index.html">Studio</a>
             </li>
 
             <li class="contact">
-              <a href="contant/index.html">Contact</a>
+              <a href="../../contant/index.html">Contact</a>
             </li>
 
             <li class="company-name">
-              <a href="#">Land Resource Design Group</a>
+              <a href="../../index.html">Land Resource Design Group</a>
             </li>
 
           </ul>
@@ -51,7 +127,8 @@
 
     </div>
 
-
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
   <script src="bella.js"></script>
   </body>
 </html>

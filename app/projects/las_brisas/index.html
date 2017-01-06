@@ -16,7 +16,77 @@
 
     <div id="imagehere">
 
-      <h1>hello world</h1>
+      <div id="sea-isle-background" class="container-fluid">
+        <div class="las-brisas-container col-md-12">
+          <div id="main-nav" class="writeup">
+            <div class="project-nav">
+              <h2 class="brisas-title">Las Brisas</h2>
+              <ul class="image-links">
+
+                <li class="brisas-list-item" role="button">
+                  <Link activeClass="active" class="brisas-two" to="brisas-two" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="brisas-list-item" role="button">
+                  <Link activeClass="active" class="brisas-three" to="brisas-three" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="brisas-list-item" role="button">
+                  <Link activeClass="active" class="brisas-four" to="brisas-four" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="brisas-list-item" role="button">
+                  <Link activeClass="active" class="brisas-one" to="brisas-one" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
+
+              </ul>
+            </div>
+            <p>Round Rock, TX</p>
+            <p id="summary" onClick={this.handleClick} class="brisas-click-event" role="button">
+              Project Info<span class="arrow"><i class="fa fa-sort-desc fa-2x" aria-hidden="true"></i></span>
+            </p>
+            <div id="brisas-summary" class="dropdown-menu">
+              <div class="summary-container">
+                <div class="project-type"><p>Project Type: Multi-Family</p><br/></div>
+                <div class="client-type"><p>Client: Epoch Residential</p><br/></div>
+                <div class="design-team">
+                  <h4 class="design-title">Design Team</h4>
+                  <ul class="team-list">
+                    <li>Land Resource Design Group, Inc.</li>
+                  </ul>
+                </div>
+                <div class="project-services">
+                  <h4 class="services-title">Project Services:</h4>
+                  <ul class="services-list">
+                    <li>Site Planning</li>
+                    <li>Hardscape Design</li>
+                    <li>Landscape Design</li>
+                  </ul>
+                </div>
+                <div class="project-summary"><p>
+                  Located in the town of Round Rock, home of Dell Computers, Las Brisas reaches the rental market of this popular tech-cultured community.  With rolling hills as a backdrop, this site features a “Texas” themed development with architectural materials that are indigenous to the area.  It offers a series of three and four story carriage-style residential buildings sensitively positioned with existing rolling terrain to minimize development costs.  The main clubhouse amenity area is highlighted with an organic-shaped, resort-style pool with an interactive fountain spa along with an outdoor kitchen.  The community also offers a smaller pool venue in closer proximity to those who reside higher up on the hill.
+                </p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="brisas-one"></div>
+        <div id="brisas-two"></div>
+        <div id="brisas-three"></div>
+        <div id="brisas-four"></div>
+      </div>
 
       <div class="site-navigation container-fluid">
         <nav id="site-nav" class="row">
@@ -26,23 +96,23 @@
             </li>
 
             <li class="overview">
-              <a href="overview/index.html">Practice</a>
+              <a href="../../overview/index.html">Practice</a>
             </li>
 
             <li class="projects">
-              <a href="projects/index.html">Projects</a>
+              <a href="../index.html">Projects</a>
             </li>
 
             <li class="studio">
-              <a href="studio/index.html">Studio</a>
+              <a href="../../studio/index.html">Studio</a>
             </li>
 
             <li class="contact">
-              <a href="contant/index.html">Contact</a>
+              <a href="../../contant/index.html">Contact</a>
             </li>
 
             <li class="company-name">
-              <a href="#">Land Resource Design Group</a>
+              <a href="../../index.html">Land Resource Design Group</a>
             </li>
 
           </ul>
@@ -51,7 +121,8 @@
 
     </div>
 
-
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
   <script src="brisas.js"></script>
   </body>
 </html>

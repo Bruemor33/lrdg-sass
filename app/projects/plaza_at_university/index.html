@@ -23,25 +23,25 @@
               <h2 class="plaza-title">Plaza at University</h2>
               <ul class="image-links">
 
-                <li class="plaza-list-item" role="button">
+                <li id="scroll-1" class="plaza-list-item" role="button">
                   <Link activeClass="active" class="plaza-two" to="plaza-two" spy={true} smooth={true} duration={500}>
 
                   </Link>
                 </li>
 
-                <li class="plaza-list-item" role="button">
+                <li id="scroll-2" class="plaza-list-item" role="button">
                   <Link activeClass="active" class="plaza-three" to="plaza-three" spy={true} smooth={true} duration={500}>
 
                   </Link>
                 </li>
 
-                <li class="plaza-list-item" role="button">
+                <li id="scroll-3" class="plaza-list-item" role="button">
                   <Link activeClass="active" class="plaza-four" to="plaza-four" spy={true} smooth={true} duration={500}>
 
                   </Link>
                 </li>
 
-                <li class="plaza-list-item" role="button">
+                <li id="scroll-4" class="plaza-list-item" role="button">
                   <Link activeClass="active" class="plaza-one" to="plaza-one" spy={true} smooth={true} duration={500}>
 
                   </Link>
@@ -91,32 +91,21 @@
 
       <div class="site-navigation container-fluid">
         <nav id="site-nav" class="row">
-          <ul class="nav-items col-md-12">
-            <li class="company-logo">
-              <a href="#"><img src="../../images/small-lrdg-logo.png" class="logo" /></a>
-            </li>
+          <div class="nav-items col-md-12">
 
-            <li class="overview">
-              <a href="../../overview/index.html">Practice</a>
-            </li>
+            <a href="#"><img src="../../images/small-lrdg-logo.png" class="logo" /></a>
 
-            <li class="projects">
-              <a href="../index.html">Projects</a>
-            </li>
+            <a href="../../overview/index.html" class="overview">Practice</a>
 
-            <li class="studio">
-              <a href="../../studio/index.html">Studio</a>
-            </li>
+            <a href="../index.html" class="projects">Projects</a>
 
-            <li class="contact">
-              <a href="../../contact/index.html">Contact</a>
-            </li>
+            <a href="../../studio/index.html" class="studio">Studio</a>
 
-            <li class="company-name">
-              <a href="../../index.html">Land Resource Design Group</a>
-            </li>
+            <a href="../../contact/index.html" class="contact">Contact</a>
 
-          </ul>
+            <a href="../../index.html" class="landing"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>
+
+          </div>
         </nav>
       </div>
 

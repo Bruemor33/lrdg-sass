@@ -16,7 +16,78 @@
 
     <div id="imagehere">
 
-      <h1>hello world</h1>
+      <div id="sea-isle-background" class="container-fluid">
+        <div class="harmony-container col-md-12">
+          <div id="main-nav" class="writeup">
+            <div class="project-nav">
+              <h2 class="harmony-title">Harmony</h2>
+              <ul class="image-links">
+
+                <li class="harmony-list-item" role="button">
+                  <Link activeClass="active" class="harmony-two" to="harmony-two" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="harmony-list-item" role="button">
+                  <Link activeClass="active" class="harmony-three" to="harmony-three" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="harmony-list-item" role="button">
+                  <Link activeClass="active" class="harmony-four" to="harmony-four" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li class="harmony-list-item" role="button">
+                  <Link activeClass="active" class="harmony-one" to="harmony-one" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
+
+              </ul>
+            </div>
+            <p>Osceola County, FL</p>
+            <p id="summary" onClick={this.handleClick} class="harmony-click-event" role="button">
+              Project Info<span class="arrow"><i class="fa fa-sort-desc fa-2x" aria-hidden="true"></i></span>
+            </p>
+            <div id="harmony-summary" class="dropdown-menu">
+              <div class="summary-container">
+                <div class="project-type"><p>Project Type: Master-Planned Community</p><br/></div>
+                <div class="client-type"><p>Client: Harmony Development Company and the Harmony CDD</p><br/></div>
+                <div class="design-team">
+                  <h4 class="design-title">Design Team</h4>
+                  <ul class="team-list">
+                    <li>Land Resource Design Group - formerly provided services as Miller Einhouse Rymer & Boyd</li>
+                  </ul>
+                </div>
+                <div class="project-services">
+                  <h4 class="services-title">Project Services:</h4>
+                  <ul class="services-list">
+                    <li>Neighborhood Planning</li>
+                    <li>Parking Planning and Design</li>
+                    <li>Hardscape Design</li>
+                    <li>Landscape Design</li>
+                  </ul>
+                </div>
+                <div class="project-summary"><p>
+                  From the initial community vision, the development of Harmony set out to create a new town to improve the health and well-being of all by emphasizing relationships between residents, animals and nature.  Located just 7 miles east of St. Cloud, FL, Phase 1 of this 11,000-acre new town offers a Johnny Miller Signature Golf Course, a quaint downtown, eight TND designed neighborhoods, a lakeshore linear park and community parks throughout.  As a result of the planning and design solutions that involved offering pet-friendly environments with dog parks, nature enriched culture with protected wildlife environments and community trail access, a commitment to pristine Buck Lake with a community dock and boating limited to paddle, and electrical and solar-powered motors, along with use of native planting materials and other initiatives, Harmony became the first large-scale master-planned community to be certified by the Florida Green Building Coalition.
+                </p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="harmony-one"></div>
+        <div id="harmony-two"></div>
+        <div id="harmony-three"></div>
+        <div id="harmony-four"></div>
+      </div>
 
       <div class="site-navigation container-fluid">
         <nav id="site-nav" class="row">
@@ -26,23 +97,23 @@
             </li>
 
             <li class="overview">
-              <a href="overview/index.html">Practice</a>
+              <a href="../../overview/index.html">Practice</a>
             </li>
 
             <li class="projects">
-              <a href="projects/index.html">Projects</a>
+              <a href="../index.html">Projects</a>
             </li>
 
             <li class="studio">
-              <a href="studio/index.html">Studio</a>
+              <a href="../../studio/index.html">Studio</a>
             </li>
 
             <li class="contact">
-              <a href="contant/index.html">Contact</a>
+              <a href="../../contant/index.html">Contact</a>
             </li>
 
             <li class="company-name">
-              <a href="#">Land Resource Design Group</a>
+              <a href="../../index.html">Land Resource Design Group</a>
             </li>
 
           </ul>
@@ -51,7 +122,8 @@
 
     </div>
 
-
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
   <script src="harmony.js"></script>
   </body>
 </html>

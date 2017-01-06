@@ -137,55 +137,92 @@ Navigation
   margin: 0;
 }
 
-.nav-items li a {
+.nav-items a {
   text-decoration: none;
   color: #FFF;
   font-family: 'Poppins', serif;
   font-size: 20px;
 }
 
-.company-logo {
+.logo {
+  height: 117px;
+  padding: 0;
   display: inline-block;
   margin-left: 50px;
-}
-
-.logo {
-  height: 65px;
-  padding: 0;
+  position: absolute;
+  top: -20px;
 }
 
 .overview {
-  margin-left: 40px;
+  margin-left: 140px;
   display: inline-block;
-  padding-top: 17px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
 }
 
 .overview:hover {
   color: #000;
   background-color: #AFB38A;
   background-size: contain;
-  height: 50px;
 }
 
 .projects {
   display: inline-block;
-  margin-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.projects:hover {
+  color: #000;
+  background-color: #E1D6CC;
+  background-size: contain;
 }
 
 .studio {
   display: inline-block;
-  margin-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.studio:hover {
+  color: #000;
+  background-color: #F9DBAE;
+  background-size: contain;
 }
 
 .contact {
   display: inline-block;
-  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 12px;
 }
 
-.company-name {
+.contact:hover {
+  color: #FFF;
+  background-color: #A66459;
+  background-size: contain;
+}
+
+.landing {
   display: inline-block;
-  margin-left: 30%;
+  margin-left: 50%;
+  position: relative;
+  top: 7px;
+}
+
+.landing:hover {
+  color: #F9DBAE;
 }
 
 

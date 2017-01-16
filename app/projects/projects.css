@@ -49,8 +49,6 @@ body {
 
 .project-one-container {
   margin-top: 40px;
-  // padding-left: 10px;
-  // padding-right: 10px;
 }
 
 .page-background {
@@ -70,15 +68,7 @@ Plaza at University
 *************************************************************/
 
 .plaza-landing {
-  /*// width: 200px;
-  // height: 200px;
-  // background-image: url('../images/1-plaza.jpg');
-  // background-size: cover;
-  // background-position: 50% 50%;
-  // color: #fff;*/
-  /*/ margin-right: 10px;*/
   margin-bottom: 10px;
-  /*// padding: 0;*/
 }
 .plaza-landing a {
   text-decoration: none;
@@ -129,8 +119,8 @@ Plaza at University
   transition:bottom .3s ease-in-out
 }
 .effect img.top:hover {
-  bottom: -108px;
-  padding-top: 100px;
+  bottom: -112px;
+  padding-top: 108px;
 }
 h2.zero, p.zero {
   margin: 0;
@@ -144,23 +134,8 @@ Nona Park Landing
 *************************************************************/
 
 .nonapark-landing {
-  /*// width: 200px;
-  // height: 200px;
-  // // background-image: url('../images/5-nona-park-village.jpg');
-  // // background-size: cover;
-  // // background-position: 50% 50%;
-  // display: inline-block;
-  // margin-right: 10px;*/
   margin-bottom: 10px;
   color: #FADCAE;
-}
-.nonapark-thumbnail {
-  /*// width: 200px;
-  // height: 200px;
-  // display: inline-block;
-  // position: relative;
-  // z-index: 10;
-  // margin: -15px 0;*/
 }
 .nonapark-landing a {
   text-decoration: none;
@@ -189,12 +164,6 @@ Kindred
 *************************************************************/
 
 .kindred-writeup {
-  /*// width: 200px;
-  // height: 200px;
-  // background-image: url('../images/emily-concept-1.jpg');
-  // background-size: cover;
-  // background-position: 50% 50%;
-  // display: inline-block;*/
   border-radius: 15px;
   margin-bottom: 10px;
   color: #FADCAE;
@@ -238,13 +207,6 @@ Waterleigh
 *************************************************************/
 
 .waterleigh-landing {
-  /*// width: 200px;
-  // height: 200px;
-  // background-image: url('../images/emily-concept-2.jpg');
-  // background-size: cover;
-  // background-position: 50% 50%;
-  // display: inline-block;
-  // margin-right: 40px;*/
   margin-bottom: 10px;
   color: #FADCAE;
 }
@@ -273,13 +235,6 @@ Sea Isle
 *************************************************************/
 
 .seaisle-landing {
-  /*// width: 200px;
-  // height: 200px;
-  // background-image: url('../images/tn-sea-isle.jpg');
-  // background-size: cover;
-  // background-position: 50% 50%;
-  // color: #fff;
-  // margin-right: 10px;*/
   margin-bottom: 10px;
 }
 .seaisle-landing a {
@@ -306,13 +261,6 @@ Altis at Sandlake
 *************************************************************/
 
 .altis-landing {
-  /*// width: 200px;
-  // height: 200px;
-  // background-image: url('../images/emily-concept-3.jpg');
-  // background-size: cover;
-  // background-position: 50% 50%;
-  // color: #fff;
-  // margin-right: 40px;*/
   margin-bottom: 10px;
 }
 .altis-landing a {
@@ -339,13 +287,6 @@ Dwell at Nona Place
 *************************************************************/
 
 .dwell-landing {
-  /*// width: 200px;
-  // height: 200px;
-  // background-image: url('../images/emily-concept-4.jpg');
-  // background-size: cover;
-  // background-position: 50% 50%;
-  // color: #fff;
-  // margin-right: 40px;*/
   margin-bottom: 10px;
 }
 .dwell-landing a {
@@ -448,6 +389,51 @@ Projects Page
 
 
 
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
+
+
+
+@media(max-height: 1920px) and (max-width: 2460px) and (min-width: 1441px) {
+
+  #site-nav {
+    top: 830px;
+  }
+
+  .landing {
+    margin-left: 60%;
+  }
+
+}
+
+@media(max-height: 1079px) and (min-height: 610px) and (max-width: 1440px) and (min-width: 1261px) {
+
+  .project-one-container {
+    margin-left: 10px;
+    height: 700px;
+  }
+
+  #site-nav {
+    top: 520px;
+  }
+
+  .landing {
+    margin-left: 50%;
+  }
+
+}
+
+
+
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
+
+
+
+
+
 /*********************************************************************
 Navigation
 *********************************************************************/
@@ -466,7 +452,6 @@ Navigation
 
 #site-nav {
   position: fixed;
-  top: 520px;
   width: 100%;
   /*z-index: 10;*/
 }
@@ -488,12 +473,12 @@ Navigation
 }
 
 .logo {
-  height: 117px;
+  height: 113px;
   padding: 0;
   display: inline-block;
   margin-left: 50px;
   position: absolute;
-  top: -20px;
+  top: -19px;
 }
 
 .overview {
@@ -541,8 +526,8 @@ Navigation
 }
 
 .studio:hover {
-  color: #000;
-  background-color: #F9DBAE;
+  color: #FFF;
+  background-color: #A66459;
   background-size: contain;
 }
 
@@ -557,15 +542,14 @@ Navigation
 }
 
 .contact:hover {
-  color: #FFF;
-  background-color: #A66459;
+  color: #000;
+  background-color: #F9DBAE;
   background-size: contain;
 }
 
 .landing {
   color: #FFF;
   display: inline-block;
-  margin-left: 50%;
   position: relative;
   top: 7px;
 }

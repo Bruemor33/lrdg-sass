@@ -11,11 +11,12 @@
 
   })
 
-  var imageOneScroll = document.getElementById('scroll-1').addEventListener('click', function(event){
-
-    window.scrollTo(0, 620);
-
+  $('#scroll-1').click(function(){
+    $('#transform').toggleClass('transform-active');
   });
+    // window.scrollTo(0, 620);
+
+
 
   var imageTwoScroll = document.getElementById('scroll-2').addEventListener('click', function(event){
 
@@ -29,10 +30,10 @@
 
   });
 
-  var imageFourScroll = document.getElementById('scroll-4').addEventListener('click', function(event){
-
-    window.scrollTo(0, 0);
-
-  });
+  // var imageFourScroll = document.getElementById('scroll-4').addEventListener('click', function(event){
+  //
+  //   window.scrollTo(0, 0);
+  //
+  // });
 
 }());

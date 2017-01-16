@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>Land Resource Design Group</title>
+    <title>LRDG - Projects - Plaza at University</title>
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -21,37 +21,17 @@
           <div id="main-nav" class="plaza-writeup">
             <div class="project-nav">
               <h2 class="plaza-title">Plaza at University</h2>
-              <ul class="image-links">
+              <div class="image-links">
 
-                <li id="scroll-1" class="plaza-list-item" role="button">
-                  <Link activeClass="active" class="plaza-two" to="plaza-two" spy={true} smooth={true} duration={500}>
+                <a href="#" class="bx-thumbs-current" style="background-image:url(../../images/plaza-one.png)"></a>
 
-                  </Link>
-                </li>
+                <a href="#" style="background-image:url(../../images/plaza-two.png)"></a>
 
-                <li id="scroll-2" class="plaza-list-item" role="button">
-                  <Link activeClass="active" class="plaza-three" to="plaza-three" spy={true} smooth={true} duration={500}>
+                <a href="#" style="background-image:url(../../images/plaza-three.png)"></a>
 
-                  </Link>
-                </li>
+                <a href="#" style="background-image:url(../../images/plaza-four.png)"></a>
 
-                <li id="scroll-3" class="plaza-list-item" role="button">
-                  <Link activeClass="active" class="plaza-four" to="plaza-four" spy={true} smooth={true} duration={500}>
-
-                  </Link>
-                </li>
-
-                <li id="scroll-4" class="plaza-list-item" role="button">
-                  <Link activeClass="active" class="plaza-one" to="plaza-one" spy={true} smooth={true} duration={500}>
-
-                  </Link>
-                </li>
-
-                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
-
-                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
-
-              </ul>
+              </div>
             </div>
             <p>Orlando, FL</p>
             <p id="summary" class="plaza-click-event" role="button">
@@ -83,10 +63,12 @@
             </div>
           </div>
         </div>
-        <div id="plaza-one"></div>
-        <div id="plaza-two"></div>
-        <div id="plaza-three"></div>
-        <div id="plaza-four"></div>
+        <div class="bx-container">
+          <img src="../../images/plaza-one.png" alt=""/>
+          <img src="../../images/plaza-two.png" alt=""/>
+          <img src="../../images/plaza-three.png" alt=""/>
+          <img src="../../images/plaza-four.png" alt=""/>
+        </div>
       </div>
 
       <div class="site-navigation container-fluid">
@@ -111,8 +93,8 @@
 
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
   <script src="plaza.js"></script>
   </body>
 </html>

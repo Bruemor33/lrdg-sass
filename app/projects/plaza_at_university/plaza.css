@@ -103,37 +103,13 @@ li {
 }
 
 /** Project Background Images **/
-#plaza-one {
-  background-image: url('../../images/1-plaza.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+.bx-container img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
   width: 100%;
-  height: 615px;
-}
-#plaza-two {
-  background-image: url('../../images/2-plaza.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 615px;
-}
-#plaza-three {
-  background-image: url('../../images/3-plaza.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 615px;
-}
-#plaza-four {
-  background-image: url('../../images/4-plaza.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 615px;
+  z-index: 101;
+  display: none;
 }
 
 
@@ -223,6 +199,87 @@ Plaza at University Styling
 
 
 
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
+
+
+
+@media(max-height: 1920px) and (max-width: 2460px) and (min-width: 1441px) {
+
+  #plaza-one {
+    height: 1080px;
+  }
+
+  #plaza-two {
+    height: 1080px;
+  }
+
+  #plaza-three {
+    height: 1080px;
+  }
+
+  #plaza-four {
+    height: 1080px;
+  }
+
+  #plaza-summary {
+    height: 615px;
+  }
+
+  .summary-container {
+    overflow-y: none;
+    height: 620px;
+  }
+
+  #site-nav {
+    top: 830px;
+  }
+
+  .landing {
+    margin-left: 60%;
+  }
+
+}
+
+@media(max-height: 1079px) and (min-height: 610px) and (max-width: 1440px) and (min-width: 1261px) {
+
+  #plaza-one {
+    height: 630px;
+  }
+
+  #plaza-two {
+    height: 630px;
+  }
+
+  #plaza-three {
+    height: 630px;
+  }
+
+  #plaza-four {
+    height: 630px;
+  }
+
+  #site-nav {
+    top: 520px;
+  }
+
+  .landing {
+    margin-left: 50%;
+  }
+
+}
+
+
+
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
+
+
+
+
+
 /*********************************************************************
 Navigation
 *********************************************************************/
@@ -241,7 +298,7 @@ Navigation
 
 #site-nav {
   position: fixed;
-  top: 520px;
+  /*top: 520px;*/
   width: 100%;
   /*z-index: 10;*/
 }
@@ -263,12 +320,12 @@ Navigation
 }
 
 .logo {
-  height: 117px;
+  height: 113px;
   padding: 0;
   display: inline-block;
   margin-left: 50px;
   position: absolute;
-  top: -20px;
+  top: -19px;
 }
 
 .overview {
@@ -340,7 +397,7 @@ Navigation
 .landing {
   color: #FFF;
   display: inline-block;
-  margin-left: 50%;
+  /*margin-left: 50%;*/
   position: relative;
   top: 7px;
 }

@@ -42,11 +42,6 @@ General Page styling
   position: fixed;
 }
 
-.studio-content-container {
-  padding-left: 300px;
-  margin-top: 140px;
-}
-
 .title-spacing {
   padding-top: 10px;
 }
@@ -131,12 +126,6 @@ Barry styling
   left: 280px;
   top: 226px;
   color: #000;
-}
-
-.barry-writeup {
-  width: 750px;
-  display: inline-block;
-  margin-top: 15px;
 }
 
 .modal-picture-barry {
@@ -232,6 +221,79 @@ Studio PAGE
 
 
 
+
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
+
+
+
+@media(max-height: 1920px) and (max-width: 2460px) and (min-width: 1441px) {
+
+  .studio-content-container {
+    padding-left: 540px;
+    margin-top: 300px;
+  }
+
+  .modal-content {
+    width: 750px;
+    display: inline-block;
+    margin-left: -50px;
+    margin-top: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  #site-nav {
+    top: 830px;
+  }
+
+  .landing {
+    margin-left: 60%;
+  }
+
+}
+
+@media(max-height: 1079px) and (min-height: 610px) and (max-width: 1440px) and (min-width: 1261px) {
+
+  .studio-content-container {
+    padding-left: 320px;
+    margin-top: 140px;
+  }
+
+  .modal-content {
+    width: 750px;
+    display: inline-block;
+    margin-left: -50px;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  #site-nav {
+    top: 520px;
+  }
+
+  .landing {
+    margin-left: 50%;
+  }
+
+}
+
+
+
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
+
+
+
+
+
 /*********************************************************************
 Navigation
 *********************************************************************/
@@ -250,7 +312,6 @@ Navigation
 
 #site-nav {
   position: fixed;
-  top: 520px;
   width: 100%;
   /*z-index: 10;*/
 }
@@ -272,12 +333,12 @@ Navigation
 }
 
 .logo {
-  height: 117px;
+  height: 113px;
   padding: 0;
   display: inline-block;
   margin-left: 50px;
   position: absolute;
-  top: -20px;
+  top: -19px;
 }
 
 .overview {
@@ -341,7 +402,7 @@ Navigation
 }
 
 .contact:hover {
-  color: #FFF;
+  color: #000;
   background-color: #F9DBAE;
   background-size: contain;
 }
@@ -349,7 +410,6 @@ Navigation
 .landing {
   color: #FFF;
   display: inline-block;
-  margin-left: 50%;
   position: relative;
   top: 7px;
 }

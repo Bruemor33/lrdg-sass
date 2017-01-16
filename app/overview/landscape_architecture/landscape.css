@@ -75,6 +75,47 @@ Landscape Architecture Page
 
 
 
+
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
+
+
+
+@media(max-height: 1920px) and (max-width: 2460px) and (min-width: 1441px) {
+
+  #site-nav {
+    top: 830px;
+  }
+
+  .landing {
+    margin-left: 60%;
+  }
+
+}
+
+@media(max-height: 1079px) and (min-height: 610px) and (max-width: 1440px) and (min-width: 1261px) {
+
+  #site-nav {
+    top: 520px;
+  }
+
+  .landing {
+    margin-left: 50%;
+  }
+
+}
+
+
+
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
+
+
+
+
+
 /*********************************************************************
 Navigation
 *********************************************************************/
@@ -93,7 +134,6 @@ Navigation
 
 #site-nav {
   position: fixed;
-  top: 520px;
   width: 100%;
   /*z-index: 10;*/
 }
@@ -110,21 +150,21 @@ Navigation
 
 .nav-items a {
   text-decoration: none;
-  color: #FFF;
   font-family: 'Poppins', serif;
   font-size: 20px;
 }
 
 .logo {
-  height: 117px;
+  height: 113px;
   padding: 0;
   display: inline-block;
   margin-left: 50px;
   position: absolute;
-  top: -20px;
+  top: -19px;
 }
 
 .overview {
+  color: #000;
   margin-left: 140px;
   display: inline-block;
   padding-top: 15px;
@@ -132,6 +172,7 @@ Navigation
   padding-left: 10px;
   padding-right: 10px;
   position: relative;
+  background-color: #AFB38A;
 }
 
 .overview:hover {
@@ -140,7 +181,13 @@ Navigation
   background-size: contain;
 }
 
+.overview:active {
+  color: #000;
+  background-color: #AFB38A;
+}
+
 .projects {
+  color: #fff;
   display: inline-block;
   padding-top: 15px;
   padding-bottom: 12px;
@@ -156,6 +203,7 @@ Navigation
 }
 
 .studio {
+  color: #fff;
   display: inline-block;
   padding-top: 15px;
   padding-bottom: 12px;
@@ -165,12 +213,13 @@ Navigation
 }
 
 .studio:hover {
-  color: #000;
-  background-color: #F9DBAE;
+  color: #FFF;
+  background-color: #A66459;
   background-size: contain;
 }
 
 .contact {
+  color: #fff;
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
@@ -180,14 +229,14 @@ Navigation
 }
 
 .contact:hover {
-  color: #FFF;
-  background-color: #A66459;
+  color: #000;
+  background-color: #F9DBAE;
   background-size: contain;
 }
 
 .landing {
+  color: #fff;
   display: inline-block;
-  margin-left: 50%;
   position: relative;
   top: 7px;
 }

@@ -97,6 +97,48 @@ Overview Page
 
 
 
+
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
+
+
+
+@media(max-height: 1920px) and (max-width: 2460px) and (min-width: 1441px) {
+
+  #site-nav {
+    top: 830px;
+  }
+
+  .landing {
+    margin-left: 60%;
+  }
+
+}
+
+@media(max-height: 1079px) and (min-height: 610px) and (max-width: 1440px) and (min-width: 1261px) {
+
+  #site-nav {
+    top: 520px;
+  }
+
+  .landing {
+    margin-left: 50%;
+  }
+
+}
+
+
+
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
+
+
+
+
+
+
 /*********************************************************************
 Navigation
 *********************************************************************/
@@ -115,7 +157,6 @@ Navigation
 
 #site-nav {
   position: fixed;
-  top: 520px;
   width: 100%;
   /*z-index: 10;*/
 }
@@ -137,12 +178,12 @@ Navigation
 }
 
 .logo {
-  height: 119px;
+  height: 113px;
   padding: 0;
   display: inline-block;
   margin-left: 50px;
   position: absolute;
-  top: -22px;
+  top: -19px;
 }
 
 .overview {
@@ -195,8 +236,8 @@ Navigation
 }
 
 .studio:hover {
-  color: #000;
-  background-color: #F9DBAE;
+  color: #FFF;
+  background-color: #A66459;
   background-size: contain;
 }
 
@@ -211,15 +252,14 @@ Navigation
 }
 
 .contact:hover {
-  color: #FFF;
-  background-color: #A66459;
+  color: #000;
+  background-color: #F9DBAE;
   background-size: contain;
 }
 
 .landing {
   color: #fff;
   display: inline-block;
-  margin-left: 50%;
   position: relative;
   top: 7px;
 }

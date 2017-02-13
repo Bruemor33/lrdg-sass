@@ -286,6 +286,134 @@ MEDIA QUERIES
 
 
 
+
+/****************************************************************************************
+Mobile
+****************************************************************************************/
+
+
+
+
+@media(max-width: 426px) and (min-width: 400px) and (max-height: 737px) and (min-height: 735px) {
+
+  .studio-background {
+    width: 414px;
+  }
+
+  .row {
+    margin-right: 0;
+  }
+
+  .studio-title {
+    width: 414px;
+    position: relative;
+    top: 70px;
+    padding-top: 1px;
+  }
+
+  .content-row {
+    margin-right: 0;
+  }
+
+  .studio-content-container {
+    padding-left: 42px;
+  }
+
+}
+
+
+@media(max-width: 375px) and (min-width: 370px) and (max-height: 668px) and (min-height: 666px) {
+
+  .studio-background {
+    width: 375px;
+  }
+
+  .row {
+    margin-right: 0;
+  }
+
+  .studio-title {
+    width: 375px;
+    position: relative;
+    top: 65px;
+    padding-top: 1px;
+  }
+
+  .content-row {
+    margin-right: 0;
+  }
+
+  .studio-content-container {
+    padding-left: 22px;
+  }
+
+}
+
+
+@media(max-width: 361px) and (min-width: 359px) and (max-height: 641px) and (min-height: 639px) {
+
+  .studio-background {
+    width: 360px;
+  }
+
+  .row {
+    margin-right: 0;
+  }
+
+  .studio-title {
+    width: 360px;
+    position: relative;
+    top: 65px;
+    padding-top: 1px;
+  }
+
+  .content-row {
+    margin-right: 0;
+  }
+
+  .studio-content-container {
+    padding-left: 15px;
+  }
+
+}
+
+
+@media(max-height: 569px) and (min-height: 479px) and (max-width: 321px) and (min-width: 319px) {
+
+  .studio-background {
+    width: 320px;
+  }
+
+  .row {
+    margin-right: 0;
+  }
+
+  .studio-title {
+    width: 320px;
+    position: relative;
+    top: 65px;
+    padding-top: 1px;
+  }
+
+  .content-row {
+    margin-right: 0;
+  }
+
+  .studio-content-container {
+    padding-left: 0;
+  }
+
+}
+
+
+
+
+/****************************************************************************************
+Mobile
+****************************************************************************************/
+
+
+
 /**************************************************************************************
 MEDIA QUERIES
 **************************************************************************************/

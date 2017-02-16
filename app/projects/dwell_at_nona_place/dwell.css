@@ -253,7 +253,7 @@ MEDIA QUERIES
   }
 
   #site-nav {
-    top: 830px;
+    top: 820px;
   }
 
   .landing {
@@ -392,8 +392,8 @@ Navigation
 }
 
 .studio:hover {
-  color: #000;
-  background-color: #F9DBAE;
+  color: #FFF;
+  background-color: #A66459;
   background-size: contain;
 }
 
@@ -408,8 +408,8 @@ Navigation
 }
 
 .contact:hover {
-  color: #FFF;
-  background-color: #A66459;
+  color: #000;
+  background-color: #F9DBAE;
   background-size: contain;
 }
 

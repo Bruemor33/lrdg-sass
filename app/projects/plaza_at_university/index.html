@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="plaza.css">
+
   </head>
   <body>
 
@@ -17,21 +18,29 @@
     <div id="imagehere">
 
       <div id="sea-isle-background" class="container-fluid">
-        <div class="plaza-university-container col-md-12">
+        <div class="page-container col-md-12">
           <div id="main-nav" class="plaza-writeup">
             <div class="project-nav">
               <h2 class="plaza-title">Plaza at University</h2>
-              <div class="image-links">
+              <ul class="image-links">
 
-                <a href="#" class="bx-thumbs-current" style="background-image:url(../../images/plaza-one.png)"></a>
+                <li class="plaza-list-item" role="button">
+                  <div id="scroll-1" class="plaza-two"></div>
+                </li>
 
-                <a href="#" style="background-image:url(../../images/plaza-two.png)"></a>
+                <li class="plaza-list-item" role="button">
+                  <div id="scroll-2" class="plaza-three"></div>
+                </li>
 
-                <a href="#" style="background-image:url(../../images/plaza-three.png)"></a>
+                <li class="plaza-list-item" role="button">
+                  <div id="scroll-3" class="plaza-four"></div>
+                </li>
 
-                <a href="#" style="background-image:url(../../images/plaza-four.png)"></a>
+                <li class="plaza-list-item" role="button">
+                  <div id="scroll-4" class="plaza-one"></div>
+                </li>
 
-              </div>
+              </ul>
             </div>
             <p>Orlando, FL</p>
             <p id="summary" class="plaza-click-event" role="button">
@@ -63,12 +72,10 @@
             </div>
           </div>
         </div>
-        <div class="bx-container">
-          <img src="../../images/plaza-one.png" alt=""/>
-          <img src="../../images/plaza-two.png" alt=""/>
-          <img src="../../images/plaza-three.png" alt=""/>
-          <img src="../../images/plaza-four.png" alt=""/>
-        </div>
+        <div id="plaza-one"></div>
+        <div id="plaza-two"></div>
+        <div id="plaza-three"></div>
+        <div id="plaza-four"></div>
       </div>
 
       <div class="site-navigation container-fluid">
@@ -95,6 +102,8 @@
 
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../modernizr-custom.js"></script>
+  <script type="text/javascript" src="StackBlur.js"></script>
   <script src="plaza.js"></script>
   </body>
 </html>

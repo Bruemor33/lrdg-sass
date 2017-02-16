@@ -32,6 +32,10 @@ li {
   padding-left: 8px;
 }
 
+.page-container {
+  padding: 0;
+}
+
 
 
 #sea-isle-background {
@@ -186,6 +190,42 @@ li {
 }
 
 
+/** Project Background Images **/
+#plaza-one {
+  background-image: url('../../images/1-plaza.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 615px;
+}
+#plaza-two {
+  background-image: url('../../images/2-plaza.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 615px;
+}
+#plaza-three {
+  background-image: url('../../images/3-plaza.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 615px;
+}
+#plaza-four {
+  background-image: url('../../images/4-plaza.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 615px;
+}
+
+
+
 
 
 
@@ -233,7 +273,7 @@ MEDIA QUERIES
   }
 
   #site-nav {
-    top: 830px;
+    top: 820px;
   }
 
   .landing {
@@ -373,8 +413,8 @@ Navigation
 }
 
 .studio:hover {
-  color: #000;
-  background-color: #F9DBAE;
+  color: #FFF;
+  background-color: #A66459;
   background-size: contain;
 }
 
@@ -389,8 +429,8 @@ Navigation
 }
 
 .contact:hover {
-  color: #FFF;
-  background-color: #A66459;
+  color: #000;
+  background-color: #F9DBAE;
   background-size: contain;
 }
 

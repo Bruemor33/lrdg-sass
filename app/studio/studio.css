@@ -246,6 +246,10 @@ MEDIA QUERIES
     padding-top: 10px;
   }
 
+  .navbar {
+    top: 830px;
+  }
+
   #site-nav {
     top: 830px;
   }
@@ -272,6 +276,19 @@ MEDIA QUERIES
     padding-right: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
+  }
+
+  .navbar {
+    top: 520px;
+  }
+
+  .logo {
+    height: 113px;
+    padding: 0;
+    display: inline-block;
+    margin-left: 50px;
+    position: absolute;
+    top: -19px;
   }
 
   #site-nav {
@@ -332,12 +349,12 @@ Mobile
     margin-right: 0;
   }
 
-  .studio-title {
+  /*.studio-title {
     width: 375px;
     position: relative;
     top: 65px;
     padding-top: 1px;
-  }
+  }*/
 
   .content-row {
     margin-right: 0;
@@ -360,12 +377,7 @@ Mobile
     margin-right: 0;
   }
 
-  .studio-title {
-    width: 360px;
-    position: relative;
-    top: 65px;
-    padding-top: 1px;
-  }
+
 
   .content-row {
     margin-right: 0;
@@ -388,12 +400,12 @@ Mobile
     margin-right: 0;
   }
 
-  .studio-title {
+  /*.studio-title {
     width: 320px;
     position: relative;
     top: 65px;
     padding-top: 1px;
-  }
+  }*/
 
   .content-row {
     margin-right: 0;
@@ -404,6 +416,114 @@ Mobile
   }
 
 }
+
+
+
+
+/**************************************************************************************
+Mobile Navigation QUERIES
+**************************************************************************************/
+
+
+
+
+@media(max-width: 375px) and (min-width: 320px) {
+
+  .navbar {
+    position: relative;
+    top: 0;
+  }
+
+  .fa-bars {
+
+  }
+
+  .navbar-toggle {
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: #FFF;
+  }
+
+  .logo {
+    height: 85px;
+    padding: 0;
+    display: inline-block;
+    margin-left: 275px;
+    position: absolute;
+    top: -8px;
+  }
+
+  .nav-items {
+    width: 375px;
+  }
+
+  .navbar-default .navbar-nav>li>a.overview {
+    background-color: #AFB38A;
+    color: #000;
+    margin-left: 0;
+    text-align: center;
+    width: 375px;
+  }
+
+  .navbar-default .navbar-nav>li>a.projects {
+    background-color: #E1D6CC;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.studio {
+    background-color: #A66459;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.contact {
+    background-color: #F9DBAE;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.landing {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 375px;
+    text-align: center;
+    left: 15px;
+  }
+
+  #page-background {
+    position: static;
+    height: 1400px;
+  }
+
+  .title {
+    position: relative;
+    padding-top: 4px;
+    top: 100px;
+    width: 100%;
+  }
+
+  .studio-content-container {
+    top: 150px;
+  }
+
+  .statement {
+    position: relative;
+    top: 115px;
+    width: 320px;
+    height: 1130px;
+    margin-left: 7%;
+  }
+
+
+
+}
+
+
+
+
+/**************************************************************************************
+Mobile Navigation QUERIES
+**************************************************************************************/
 
 
 
@@ -437,6 +557,64 @@ Navigation
 }
 
 
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggle {
+  float: none;
+}
+
+.navbar {
+  border-radius: 0px;
+  position: fixed;
+  width: 100%;
+  height: 55px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a.overview:hover {
+  color: #000;
+  background-color: #AFB38A;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.projects:hover {
+  color: #000;
+  background-color: #E1D6CC;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.studio:hover {
+  color: #FFF;
+  background-color: #A66459;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.contact:hover {
+  color: #000;
+  background-color: #F9DBAE;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.landing:hover {
+  color: #F9DBAE;
+}
+
+/*.navbar-default .navbar-nav>.active>a {
+  color: #000;
+  background-color: #AFB38A;
+}*/
+
+.navbar-right {
+  margin-right: 85px;
+}
+
+
 
 #site-nav {
   position: fixed;
@@ -446,27 +624,19 @@ Navigation
 
 
 .nav-items {
-  background-color: rgba(0, 0, 0, 0.7);
   display: inline-block;
-  width: 100%;
+  /*width: 600px;*/
   height: 55px;
   padding: 0;
   margin: 0;
 }
 
-.nav-items a {
+.nav-items li a {
   text-decoration: none;
   font-family: 'Poppins', serif;
   font-size: 20px;
-}
-
-.logo {
-  height: 113px;
-  padding: 0;
-  display: inline-block;
-  margin-left: 50px;
-  position: absolute;
-  top: -19px;
+  height: 55px;
+  padding-top: 20px;
 }
 
 .overview {

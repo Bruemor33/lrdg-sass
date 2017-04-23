@@ -1,29 +1,12 @@
 
 
 
-h1 {
-  color: red;
-}
-
-
-
-
-
-
-
-
 /*********************************************************************************************
 Projects Page
 *********************************************************************************************/
 
 
-h1 {
-  color: red;
-}
 
-body {
-  color: black;
-}
 
 li {
   list-style: none;
@@ -439,6 +422,126 @@ MEDIA QUERIES
 
 
 
+
+/**************************************************************************************
+Mobile Navigation QUERIES
+**************************************************************************************/
+
+
+
+
+@media(max-width: 375px) and (min-width: 320px) {
+
+  .navbar {
+    position: fixed;
+    top: 0;
+  }
+
+  .fa-bars {
+
+  }
+
+  .navbar-toggle {
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: #FFF;
+  }
+
+  .logo {
+    height: 85px;
+    padding: 0;
+    display: inline-block;
+    margin-left: 275px;
+    position: absolute;
+    top: -8px;
+  }
+
+  .nav-items {
+    width: 375px;
+  }
+
+  .navbar-default .navbar-nav>li>a.overview {
+    background-color: #AFB38A;
+    color: #000;
+    margin-left: 0;
+    text-align: center;
+    width: 375px;
+  }
+
+  .navbar-default .navbar-nav>li>a.projects {
+    background-color: #E1D6CC;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.studio {
+    background-color: #A66459;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.contact {
+    background-color: #F9DBAE;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.landing {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 375px;
+    text-align: center;
+    left: 15px;
+  }
+
+  /***********************************************************
+  PAGE Queries
+  ***********************************************************/
+
+  #page-background {
+    position: static;
+    height: 900px;
+  }
+
+  .title {
+    position: relative;
+    padding-top: 4px;
+    top: 80px;
+    width: 100%;
+    font-size: 45px;
+  }
+
+  .mobile-sizing {
+    font-size: 23px;
+  }
+
+  .studio-content-container {
+    top: 150px;
+  }
+
+  .statement {
+    position: relative;
+    top: 100px;
+    width: 320px;
+    height: 680px;
+    margin-left: 7%;
+  }
+
+  .scroller {
+    overflow-y: visible;
+  }
+
+}
+
+
+
+
+/**************************************************************************************
+Mobile Navigation QUERIES
+**************************************************************************************/
+
+
+
+
 /**************************************************************************************
 MEDIA QUERIES
 **************************************************************************************/
@@ -462,6 +565,64 @@ Navigation
 }
 
 
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggle {
+  float: none;
+}
+
+.navbar {
+  border-radius: 0px;
+  position: fixed;
+  width: 100%;
+  height: 55px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a.overview:hover {
+  color: #000;
+  background-color: #AFB38A;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.projects:hover {
+  color: #000;
+  background-color: #E1D6CC;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.studio:hover {
+  color: #FFF;
+  background-color: #A66459;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.contact:hover {
+  color: #000;
+  background-color: #F9DBAE;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.landing:hover {
+  color: #F9DBAE;
+}
+
+/*.navbar-default .navbar-nav>.active>a {
+  color: #000;
+  background-color: #AFB38A;
+}*/
+
+.navbar-right {
+  margin-right: 85px;
+}
+
+
 
 #site-nav {
   position: fixed;
@@ -471,31 +632,22 @@ Navigation
 
 
 .nav-items {
-  background-color: rgba(0, 0, 0, 0.7);
   display: inline-block;
-  width: 100%;
   height: 55px;
   padding: 0;
   margin: 0;
 }
 
-.nav-items a {
+.nav-items li a {
   text-decoration: none;
   font-family: 'Poppins', serif;
   font-size: 20px;
-}
-
-.logo {
-  height: 113px;
-  padding: 0;
-  display: inline-block;
-  margin-left: 50px;
-  position: absolute;
-  top: -19px;
+  height: 55px;
+  padding-top: 20px;
 }
 
 .overview {
-  color: #fff;
+  color: #000;
   margin-left: 140px;
   display: inline-block;
   padding-top: 15px;
@@ -503,6 +655,7 @@ Navigation
   padding-left: 10px;
   padding-right: 10px;
   position: relative;
+  background-color: #AFB38A;
 }
 
 .overview:hover {
@@ -511,9 +664,13 @@ Navigation
   background-size: contain;
 }
 
-.projects {
+.overview:active {
   color: #000;
-  background-color: #E1D6CC;
+  background-color: #AFB38A;
+}
+
+.projects {
+  color: #fff;
   display: inline-block;
   padding-top: 15px;
   padding-bottom: 12px;
@@ -529,7 +686,7 @@ Navigation
 }
 
 .studio {
-  color: #FFF;
+  color: #fff;
   display: inline-block;
   padding-top: 15px;
   padding-bottom: 12px;
@@ -545,7 +702,7 @@ Navigation
 }
 
 .contact {
-  color: #FFF;
+  color: #fff;
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
@@ -561,10 +718,9 @@ Navigation
 }
 
 .landing {
-  color: #FFF;
+  color: #fff;
   display: inline-block;
   position: relative;
-  top: 7px;
 }
 
 .landing:hover {

@@ -3,8 +3,6 @@
 
 (function(){
 
-
-
   var navigationCheck = function(){
 
     if(screen.width <= 376){

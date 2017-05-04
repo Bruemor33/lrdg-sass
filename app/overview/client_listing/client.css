@@ -117,6 +117,14 @@ MEDIA QUERIES
     top: 830px;
   }
 
+  .navbar {
+    top: 830px;
+  }
+
+  .nav-items {
+    width: 600px;
+  }
+
   .landing {
     margin-left: 60%;
   }
@@ -130,8 +138,12 @@ MEDIA QUERIES
     top: -19px;
   }
 
-  .nav-items {
-    width: 600px;
+  .statement {
+    height: 400px;
+  }
+
+  .scroller {
+    height: 630px;
   }
 
 }
@@ -142,12 +154,12 @@ MEDIA QUERIES
     top: 520px;
   }
 
-  .navbar {
-    top: 520px;
-  }
-
   .nav-items {
     width: 600px;
+  }
+
+  .navbar {
+    top: 520px;
   }
 
   .landing {

@@ -88,6 +88,10 @@ MEDIA QUERIES
     top: 830px;
   }
 
+  .navbar {
+    top: 830px;
+  }
+
   .nav-items {
     width: 600px;
   }
@@ -105,6 +109,14 @@ MEDIA QUERIES
     top: -19px;
   }
 
+  .statement {
+    height: 500px;
+  }
+
+  .scroller {
+    height: 630px;
+  }
+
 }
 
 @media(max-height: 1079px) and (min-height: 610px) and (max-width: 1440px) and (min-width: 1261px) {
@@ -115,6 +127,10 @@ MEDIA QUERIES
 
   .nav-items {
     width: 600px;
+  }
+
+  .navbar {
+    top: 520px;
   }
 
   .landing {
@@ -133,6 +149,10 @@ MEDIA QUERIES
 }
 
 
+
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
 
 
 /**************************************************************************************

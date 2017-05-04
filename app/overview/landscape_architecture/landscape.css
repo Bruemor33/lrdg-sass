@@ -88,12 +88,12 @@ MEDIA QUERIES
     top: 830px;
   }
 
-  .nav-items {
-    width: 600px;
+  .navbar {
+    top: 830px;
   }
 
-  .landscape-title {
-    font-size: 44px;
+  .nav-items {
+    width: 600px;
   }
 
   .landing {
@@ -109,6 +109,14 @@ MEDIA QUERIES
     top: -19px;
   }
 
+  .landscape-statement {
+    height: 665px;
+  }
+
+  .scroller {
+    height: 630px;
+  }
+
 }
 
 @media(max-height: 1079px) and (min-height: 610px) and (max-width: 1440px) and (min-width: 1261px) {
@@ -121,8 +129,8 @@ MEDIA QUERIES
     width: 600px;
   }
 
-  .landscape-title {
-    font-size: 44px;
+  .navbar {
+    top: 520px;
   }
 
   .landing {
@@ -140,6 +148,11 @@ MEDIA QUERIES
 
 }
 
+
+
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
 
 
 
@@ -332,10 +345,10 @@ Navigation
   color: #F9DBAE;
 }
 
-/*.navbar-default .navbar-nav>.active>a {
+.navbar-default .navbar-nav>.active>a {
   color: #000;
   background-color: #AFB38A;
-}*/
+}
 
 .navbar-right {
   margin-right: 85px;
@@ -352,6 +365,7 @@ Navigation
 
 .nav-items {
   display: inline-block;
+
   height: 55px;
   padding: 0;
   margin: 0;
@@ -363,6 +377,20 @@ Navigation
   font-size: 20px;
   height: 55px;
   padding-top: 20px;
+}
+
+
+.nav-items {
+  display: inline-block;
+  height: 55px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-items a {
+  text-decoration: none;
+  font-family: 'Poppins', serif;
+  font-size: 20px;
 }
 
 .overview {

@@ -1,10 +1,14 @@
-
-
-
 (function(){
 
-  $('#site-nav').append('<div class="mobil-nav-items"></div>');
+  var navigationCheck = function(){
 
-  $('.mobil-nav-items').append('<ul><li></li><li></li></ul>');
+    if(screen.width <= 376){
+      document.getElementById('desktop-navigation').removeClass('nav-items');
+
+    }
+
+  }
+
+  console.log(navigationCheck);
 
 }());

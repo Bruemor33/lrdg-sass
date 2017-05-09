@@ -1,3 +1,14 @@
+(function(){
 
+  var navigationCheck = function(){
 
-console.log('hello world');
+    if(screen.width <= 376){
+      document.getElementById('desktop-navigation').removeClass('nav-items');
+
+    }
+
+  }
+
+  console.log(navigationCheck);
+
+}());

@@ -53,7 +53,6 @@ a:hover {
 .statement {
   position: relative;
   top: 91.5px;
-  width: 500px;
   height: 380px;
   padding-left: 15px;
   padding-right: 15px;
@@ -98,6 +97,18 @@ a:hover {
 
 .google-map {
   margin-top: 10px;
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 
@@ -105,8 +116,6 @@ a:hover {
 /*********************************************************************************************
 Contact Page
 *********************************************************************************************/
-
-
 
 
 
@@ -118,24 +127,66 @@ MEDIA QUERIES
 
 @media(max-height: 1920px) and (max-width: 2460px) and (min-width: 1441px) {
 
+  .statement {
+    width: 500px;
+  }
+
   #site-nav {
     top: 830px;
+  }
+
+  .navbar {
+    top: 830px;
+  }
+
+  .nav-items {
+    width: 600px;
   }
 
   .landing {
     margin-left: 60%;
   }
 
+  .logo {
+    height: 113px;
+    padding: 0;
+    display: inline-block;
+    margin-left: 50px;
+    position: absolute;
+    top: -19px;
+  }
+
 }
 
 @media(max-height: 1079px) and (min-height: 610px) and (max-width: 1440px) and (min-width: 1261px) {
+
+  .statement {
+    width: 500px;
+  }
 
   #site-nav {
     top: 520px;
   }
 
+  .nav-items {
+    width: 600px;
+  }
+
+  .navbar {
+    top: 520px;
+  }
+
   .landing {
     margin-left: 50%;
+  }
+
+  .logo {
+    height: 113px;
+    padding: 0;
+    display: inline-block;
+    margin-left: 50px;
+    position: absolute;
+    top: -19px;
   }
 
 }
@@ -144,6 +195,127 @@ MEDIA QUERIES
 
 /**************************************************************************************
 MEDIA QUERIES
+**************************************************************************************/
+
+
+/**************************************************************************************
+Mobile Navigation QUERIES
+**************************************************************************************/
+
+
+
+
+@media(max-width: 375px) and (min-width: 320px) {
+
+  #page-background {
+    height: 100%;
+  }
+
+  .title {
+    top: 80px;
+  }
+
+  .statement {
+    position: fixed;
+    top: 175px;
+    width: 340px;
+    margin-left: 10px;
+  }
+
+  .navbar {
+    position: relative;
+    top: 0;
+  }
+
+  .fa-bars {
+
+  }
+
+  .navbar-toggle {
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: #FFF;
+  }
+
+  .logo {
+    height: 85px;
+    padding: 0;
+    display: inline-block;
+    margin-left: 275px;
+    position: absolute;
+    top: -8px;
+  }
+
+  .nav-items {
+    width: 375px;
+  }
+
+  .navbar-default .navbar-nav>li>a.overview {
+    background-color: #AFB38A;
+    color: #000;
+    margin-left: 0;
+    text-align: center;
+    width: 375px;
+  }
+
+  .navbar-default .navbar-nav>li>a.projects {
+    background-color: #E1D6CC;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.studio {
+    background-color: #A66459;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.contact {
+    background-color: #F9DBAE;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.landing {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 375px;
+    text-align: center;
+    left: 15px;
+  }
+
+  #page-background {
+    position: static;
+    height: 780px;
+  }
+
+  .overview-title {
+    position: relative;
+    padding-top: 4px;
+    top: 80px;
+    width: 100%;
+  }
+
+  .studio-content-container {
+    top: 150px;
+  }
+
+  .overview-statement {
+    position: relative;
+    top: 100px;
+    width: 320px;
+    height: 540px;
+    margin-left: 7%;
+  }
+
+
+
+}
+
+
+
+
+/**************************************************************************************
+Mobile Navigation QUERIES
 **************************************************************************************/
 
 
@@ -165,10 +337,13 @@ Navigation
 }
 
 
-
 .navbar-default {
   background-color: rgba(0, 0, 0, 0.7);
   border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggle {
+  float: none;
 }
 
 .navbar {
@@ -176,7 +351,6 @@ Navigation
   position: fixed;
   width: 100%;
   height: 55px;
-  top: 520px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -213,7 +387,7 @@ Navigation
 
 .navbar-default .navbar-nav>.active>a {
   color: #000;
-  background-color: #F9DBAE;
+  background-color: #F8DAA7;
 }
 
 .navbar-right {
@@ -231,7 +405,7 @@ Navigation
 
 .nav-items {
   display: inline-block;
-  width: 600px;
+
   height: 55px;
   padding: 0;
   margin: 0;
@@ -246,18 +420,21 @@ Navigation
 }
 
 
-
-.logo {
-  height: 113px;
-  padding: 0;
+.nav-items {
   display: inline-block;
-  margin-left: 50px;
-  position: absolute;
-  top: -19px;
+  height: 55px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-items a {
+  text-decoration: none;
+  font-family: 'Poppins', serif;
+  font-size: 20px;
 }
 
 .overview {
-  color: #fff;
+  color: #000;
   margin-left: 140px;
   display: inline-block;
   padding-top: 15px;
@@ -273,8 +450,13 @@ Navigation
   background-size: contain;
 }
 
+.overview:active {
+  color: #000;
+  background-color: #AFB38A;
+}
+
 .projects {
-  color: #FFF;
+  color: #fff;
   display: inline-block;
   padding-top: 15px;
   padding-bottom: 12px;
@@ -290,7 +472,7 @@ Navigation
 }
 
 .studio {
-  color: #FFF;
+  color: #fff;
   display: inline-block;
   padding-top: 15px;
   padding-bottom: 12px;
@@ -300,14 +482,13 @@ Navigation
 }
 
 .studio:hover {
-  color: #000;
+  color: #FFF;
   background-color: #A66459;
   background-size: contain;
 }
 
 .contact {
-  color: #000;
-  background-color: #F9DBAE;
+  color: #fff;
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
@@ -323,7 +504,7 @@ Navigation
 }
 
 .landing {
-  color: #FFF;
+  color: #fff;
   display: inline-block;
   position: relative;
 }

@@ -384,8 +384,25 @@ MEDIA QUERIES
     top: 830px;
   }
 
+  .navbar {
+    top: 830px;
+  }
+
+  .nav-items {
+    width: 600px;
+  }
+
   .landing {
     margin-left: 60%;
+  }
+
+  .logo {
+    height: 113px;
+    padding: 0;
+    display: inline-block;
+    margin-left: 50px;
+    position: absolute;
+    top: -19px;
   }
 
   .project-one-container {
@@ -401,6 +418,10 @@ MEDIA QUERIES
     width: 285px;
   }
 
+  .project-labels {
+    display: none;
+  }
+
 }
 
 @media(max-height: 1079px) and (min-height: 610px) and (max-width: 1440px) and (min-width: 1261px) {
@@ -414,8 +435,29 @@ MEDIA QUERIES
     top: 520px;
   }
 
+  .nav-items {
+    width: 600px;
+  }
+
+  .navbar {
+    top: 520px;
+  }
+
   .landing {
     margin-left: 50%;
+  }
+
+  .logo {
+    height: 113px;
+    padding: 0;
+    display: inline-block;
+    margin-left: 50px;
+    position: absolute;
+    top: -19px;
+  }
+
+  .project-labels {
+    display: none;
   }
 
 }
@@ -514,20 +556,29 @@ Mobile Navigation QUERIES
     font-size: 23px;
   }
 
-  .studio-content-container {
-    top: 150px;
+  .project-one-container {
+    top: 40px
   }
 
-  .statement {
+  .top {
+    width: 300px;
+  }
+
+  .hover-effect-2 {
+    width: 300px;
+  }
+
+  .project-labels {
     position: relative;
+    color: #FFF;
     top: 100px;
-    width: 320px;
-    height: 680px;
-    margin-left: 7%;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 3%;
+    background-color: rgba(0, 0, 0, 0.5);
   }
-
-  .scroller {
-    overflow-y: visible;
+  .project-labels h3 {
+    margin: 0;
   }
 
 }
@@ -655,7 +706,6 @@ Navigation
   padding-left: 10px;
   padding-right: 10px;
   position: relative;
-  background-color: #AFB38A;
 }
 
 .overview:hover {

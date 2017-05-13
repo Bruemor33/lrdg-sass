@@ -102,7 +102,7 @@ Plaza at University
   transition:bottom .3s ease-in-out
 }
 .effect img.top:hover {
-  bottom: -112px;
+  bottom: -130px;
   padding-top: 108px;
 }
 h2.zero, p.zero {
@@ -128,8 +128,8 @@ Nona Park Landing
   font-family: 'Poppins', serif;
   font-size: 20px;
   font-weight: 200;
-  padding-top: 5px;
-  padding-left: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 .nonapark-landing p {
   font-family: 'Poppins', serif;
@@ -174,8 +174,8 @@ Kindred
   font-family: 'Poppins', serif;
   font-size: 20px;
   font-weight: 200;
-  padding-left: 5px;
-  padding-top: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 .kindred-writeup p {
   font-family: 'Poppins', serif;
@@ -201,8 +201,8 @@ Waterleigh
   font-family: 'Poppins', serif;
   font-size: 20px;
   font-weight: 200;
-  padding-left: 5px;
-  padding-top: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 .waterleigh-landing p {
   font-family: 'Poppins', serif;
@@ -228,8 +228,8 @@ Sea Isle
   font-family: 'Poppins', serif;
   font-size: 20px;
   font-weight: 200;
-  padding-top: 5px;
-  padding-left: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 .seaisle-landing p {
   font-family: 'Poppins', serif;
@@ -254,8 +254,8 @@ Altis at Sandlake
   font-family: 'Poppins', serif;
   font-size: 20px;
   font-weight: 200;
-  padding-top: 5px;
-  padding-left: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 .altis-landing p {
   font-family: 'Poppins', serif;
@@ -280,8 +280,8 @@ Dwell at Nona Place
   font-family: 'Poppins', serif;
   font-size: 20px;
   font-weight: 200;
-  padding-top: 5px;
-  padding-left: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 .dwell-landing p {
   font-family: 'Poppins', serif;
@@ -313,8 +313,8 @@ Las Ventanas
   font-family: "Poppins", serif;
   font-size: 20px;
   font-weight: 200;
-  padding-top: 5px;
-  padding-left: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 .ventanas-landing p {
   font-family: "Poppins", serif;
@@ -345,10 +345,32 @@ Las Brisas
   font-family: "Poppins", serif;
   font-size: 20px;
   font-weight: 200;
-  padding-top: 5px;
-  padding-left: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 .brisas-landing p {
+  font-family: "Poppins", serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+.harmony-landing {
+  margin-bottom: 50px;
+}
+
+.harmony-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.harmony-landing h3 {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.harmony-landing p {
   font-family: "Poppins", serif;
   font-size: 13px;
   font-weight: 200;
@@ -418,7 +440,7 @@ MEDIA QUERIES
     width: 285px;
   }
 
-  .project-labels {
+  .mobile-label {
     display: none;
   }
 
@@ -456,7 +478,7 @@ MEDIA QUERIES
     top: -19px;
   }
 
-  .project-labels {
+  .mobile-label {
     display: none;
   }
 
@@ -568,17 +590,13 @@ Mobile Navigation QUERIES
     width: 300px;
   }
 
-  .project-labels {
-    position: relative;
-    color: #FFF;
-    top: 100px;
-    height: 40px;
-    padding-left: 5px;
-    padding-right: 3%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .project-labels h3 {
+  .mobile-label {
     margin: 0;
+    color: #FFF;
+    width: 300px;
+    height: 40px;
+    padding-left: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
 }
@@ -664,10 +682,10 @@ Navigation
   color: #F9DBAE;
 }
 
-/*.navbar-default .navbar-nav>.active>a {
+.navbar-default .navbar-nav>.active>a {
   color: #000;
-  background-color: #AFB38A;
-}*/
+  background-color: #E1D6CC;
+}
 
 .navbar-right {
   margin-right: 85px;

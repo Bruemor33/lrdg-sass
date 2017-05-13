@@ -461,12 +461,12 @@ MEDIA QUERIES
     width: 600px;
   }
 
-  .navbar {
-    top: 520px;
-  }
-
   .landing {
     margin-left: 50%;
+  }
+
+  .navbar {
+    top: 520px;
   }
 
   .logo {

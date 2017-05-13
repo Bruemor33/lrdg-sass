@@ -254,6 +254,15 @@ MEDIA QUERIES
     top: 830px;
   }
 
+  .logo {
+    height: 113px;
+    padding: 0;
+    display: inline-block;
+    margin-left: 50px;
+    position: absolute;
+    top: -19px;
+  }
+
   .landing {
     margin-left: 60%;
   }

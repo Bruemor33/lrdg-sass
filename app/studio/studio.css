@@ -46,6 +46,11 @@ General Page styling
   padding-top: 10px;
 }
 
+.studio-content-container {
+	margin-left: 23% !important;
+	margin-top: 13% !important;
+}
+
 .studio-title {
   top: 20px;
   width: 500px;
@@ -230,11 +235,6 @@ MEDIA QUERIES
 
 @media(max-height: 1920px) and (max-width: 2460px) and (min-width: 1441px) {
 
-  .studio-content-container {
-    padding-left: 540px;
-    margin-top: 300px;
-  }
-
   .modal-content {
     width: 750px;
     display: inline-block;
@@ -246,21 +246,8 @@ MEDIA QUERIES
     padding-top: 10px;
   }
 
-  .navbar {
-    top: 830px;
-  }
-
-  #site-nav {
-    top: 830px;
-  }
-
-  .logo {
-    height: 113px;
-    padding: 0;
-    display: inline-block;
-    margin-left: 50px;
-    position: absolute;
-    top: -19px;
+  .nav-items {
+    width: 600px;
   }
 
   .landing {
@@ -270,11 +257,6 @@ MEDIA QUERIES
 }
 
 @media(max-height: 1079px) and (min-height: 610px) and (max-width: 1440px) and (min-width: 1261px) {
-
-  .studio-content-container {
-    padding-left: 320px;
-    margin-top: 140px;
-  }
 
   .modal-content {
     width: 750px;
@@ -287,21 +269,8 @@ MEDIA QUERIES
     padding-top: 10px;
   }
 
-  .navbar {
-    top: 520px;
-  }
-
-  .logo {
-    height: 113px;
-    padding: 0;
-    display: inline-block;
-    margin-left: 50px;
-    position: absolute;
-    top: -19px;
-  }
-
-  #site-nav {
-    top: 520px;
+  .nav-items {
+    width: 600px;
   }
 
   .landing {
@@ -330,7 +299,7 @@ Mobile
     margin-right: 0;
   }
 
-  .studio-title {
+  .title {
     width: 414px;
     position: relative;
     top: 70px;
@@ -435,16 +404,15 @@ Mobile Navigation QUERIES
 
 
 
-
-@media(max-width: 375px) and (min-width: 320px) {
+@media(max-width: 415px) and (min-width: 320px) {
 
   .navbar {
     position: relative;
     top: 0;
   }
 
-  .fa-bars {
-
+  #site-nav {
+	  top: 0;
   }
 
   .navbar-toggle {
@@ -453,17 +421,21 @@ Mobile Navigation QUERIES
     background-color: #FFF;
   }
 
+  .navbar-right {
+    margin-right: 0 !important;
+  }
+
   .logo {
     height: 85px;
     padding: 0;
     display: inline-block;
-    margin-left: 275px;
+    margin-left: 78% !important;
     position: absolute;
     top: -8px;
   }
 
   .nav-items {
-    width: 375px;
+    width: 100%;
   }
 
   .navbar-default .navbar-nav>li>a.overview {
@@ -471,7 +443,7 @@ Mobile Navigation QUERIES
     color: #000;
     margin-left: 0;
     text-align: center;
-    width: 375px;
+    width: 100%;
   }
 
   .navbar-default .navbar-nav>li>a.projects {
@@ -494,32 +466,34 @@ Mobile Navigation QUERIES
 
   .navbar-default .navbar-nav>li>a.landing {
     background-color: rgba(0, 0, 0, 0.7);
-    width: 375px;
+    width: 100%;
     text-align: center;
     left: 15px;
   }
 
   #page-background {
     position: static;
-    height: 1400px;
+    height: 780px;
   }
 
   .title {
     position: relative;
     padding-top: 4px;
-    top: 100px;
+    top: 80px;
     width: 100%;
   }
 
   .studio-content-container {
     top: 150px;
+	margin-left: 0 !important;
+	margin-top: 0 !important;
   }
 
-  .statement {
+  .overview-statement {
     position: relative;
-    top: 115px;
+    top: 100px;
     width: 320px;
-    height: 1130px;
+    height: 540px;
     margin-left: 7%;
   }
 
@@ -549,13 +523,20 @@ MEDIA QUERIES
 
 
 
-
-
 /*********************************************************************
 Navigation
 *********************************************************************/
 
 
+
+.navbar {
+	bottom: 4%;
+}
+
+#site-nav {
+	height: 55px;
+	bottom: 4%;
+}
 
 .container-fluid {
   padding: 0;
@@ -565,6 +546,14 @@ Navigation
   margin-left: 0;
 }
 
+.logo {
+  height: 113px;
+  padding: 0;
+  display: inline-block;
+  margin-left: 50px;
+  position: absolute;
+  top: -19px;
+}
 
 .navbar-default {
   background-color: rgba(0, 0, 0, 0.7);
@@ -584,6 +573,7 @@ Navigation
 
 .navbar-default .navbar-nav>li>a {
   color: #FFF;
+  padding-top: 17px !important;
 }
 
 .navbar-default .navbar-nav>li>a.overview:hover {
@@ -614,10 +604,10 @@ Navigation
   color: #F9DBAE;
 }
 
-/*.navbar-default .navbar-nav>.active>a {
+.navbar-default .navbar-nav>.active>a {
   color: #000;
-  background-color: #AFB38A;
-}*/
+  background-color: #A66459;
+}
 
 .navbar-right {
   margin-right: 85px;
@@ -634,7 +624,6 @@ Navigation
 
 .nav-items {
   display: inline-block;
-  /*width: 600px;*/
   height: 55px;
   padding: 0;
   margin: 0;
@@ -645,80 +634,17 @@ Navigation
   font-family: 'Poppins', serif;
   font-size: 20px;
   height: 55px;
-  padding-top: 20px;
 }
 
 .overview {
-  color: #fff;
+  color: #000;
   margin-left: 140px;
-  display: inline-block;
-  padding-top: 15px;
-  padding-bottom: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-}
-
-.overview:hover {
-  color: #000;
-  background-color: #AFB38A;
-  background-size: contain;
-}
-
-.projects {
-  color: #FFF;
-  display: inline-block;
-  padding-top: 15px;
-  padding-bottom: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-}
-
-.projects:hover {
-  color: #000;
-  background-color: #E1D6CC;
-  background-size: contain;
-}
-
-.studio {
-  color: #FFF;
-  background-color: #A66459;
-  display: inline-block;
-  padding-top: 15px;
-  padding-bottom: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-}
-
-.studio:hover {
-  color: #000;
-  background-color: #A66459;
-  background-size: contain;
-}
-
-.contact {
-  color: #FFF;
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-  padding-top: 15px;
-  padding-bottom: 12px;
-}
-
-.contact:hover {
-  color: #000;
-  background-color: #F9DBAE;
-  background-size: contain;
 }
 
 .landing {
-  color: #FFF;
+  color: #fff;
   display: inline-block;
   position: relative;
-  top: 7px;
 }
 
 .landing:hover {

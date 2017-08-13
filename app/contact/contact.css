@@ -131,29 +131,12 @@ MEDIA QUERIES
     width: 500px;
   }
 
-  #site-nav {
-    top: 830px;
-  }
-
-  .navbar {
-    top: 830px;
-  }
-
   .nav-items {
     width: 600px;
   }
 
   .landing {
     margin-left: 60%;
-  }
-
-  .logo {
-    height: 113px;
-    padding: 0;
-    display: inline-block;
-    margin-left: 50px;
-    position: absolute;
-    top: -19px;
   }
 
 }
@@ -164,29 +147,12 @@ MEDIA QUERIES
     width: 500px;
   }
 
-  #site-nav {
-    top: 520px;
-  }
-
   .nav-items {
     width: 600px;
   }
 
-  .navbar {
-    top: 520px;
-  }
-
   .landing {
     margin-left: 50%;
-  }
-
-  .logo {
-    height: 113px;
-    padding: 0;
-    display: inline-block;
-    margin-left: 50px;
-    position: absolute;
-    top: -19px;
   }
 
 }
@@ -205,26 +171,15 @@ Mobile Navigation QUERIES
 
 
 
-@media(max-width: 375px) and (min-width: 320px) {
-
-  #page-background {
-    height: 100%;
-  }
-
-  .title {
-    top: 80px;
-  }
-
-  .statement {
-    position: fixed;
-    top: 175px;
-    width: 340px;
-    margin-left: 10px;
-  }
+@media(max-width: 415px) and (min-width: 320px) {
 
   .navbar {
     position: relative;
     top: 0;
+  }
+
+  #site-nav {
+	  top: 0;
   }
 
   .fa-bars {
@@ -241,7 +196,7 @@ Mobile Navigation QUERIES
     height: 85px;
     padding: 0;
     display: inline-block;
-    margin-left: 275px;
+    margin-left: 78% !important;
     position: absolute;
     top: -8px;
   }
@@ -288,7 +243,7 @@ Mobile Navigation QUERIES
     height: 780px;
   }
 
-  .overview-title {
+  .title {
     position: relative;
     padding-top: 4px;
     top: 80px;
@@ -299,12 +254,12 @@ Mobile Navigation QUERIES
     top: 150px;
   }
 
-  .overview-statement {
+  .statement {
     position: relative;
     top: 100px;
-    width: 320px;
-    height: 540px;
-    margin-left: 7%;
+    width: 88%;
+    height: 380px;
+    margin-left: 5.5%;
   }
 
 
@@ -328,6 +283,15 @@ Navigation
 
 
 
+.navbar {
+	bottom: 4%;
+}
+
+#site-nav {
+	height: 55px;
+	bottom: 4%;
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -336,6 +300,14 @@ Navigation
   margin-left: 0;
 }
 
+.logo {
+  height: 113px;
+  padding: 0;
+  display: inline-block;
+  margin-left: 50px;
+  position: absolute;
+  top: -19px;
+}
 
 .navbar-default {
   background-color: rgba(0, 0, 0, 0.7);
@@ -355,6 +327,7 @@ Navigation
 
 .navbar-default .navbar-nav>li>a {
   color: #FFF;
+  padding-top: 17px !important;
 }
 
 .navbar-default .navbar-nav>li>a.overview:hover {
@@ -387,7 +360,7 @@ Navigation
 
 .navbar-default .navbar-nav>.active>a {
   color: #000;
-  background-color: #F8DAA7;
+  background-color: #F9DBAE;
 }
 
 .navbar-right {
@@ -416,7 +389,6 @@ Navigation
   font-family: 'Poppins', serif;
   font-size: 20px;
   height: 55px;
-  padding-top: 20px;
 }
 
 
@@ -436,71 +408,6 @@ Navigation
 .overview {
   color: #000;
   margin-left: 140px;
-  display: inline-block;
-  padding-top: 15px;
-  padding-bottom: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-}
-
-.overview:hover {
-  color: #000;
-  background-color: #AFB38A;
-  background-size: contain;
-}
-
-.overview:active {
-  color: #000;
-  background-color: #AFB38A;
-}
-
-.projects {
-  color: #fff;
-  display: inline-block;
-  padding-top: 15px;
-  padding-bottom: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-}
-
-.projects:hover {
-  color: #000;
-  background-color: #E1D6CC;
-  background-size: contain;
-}
-
-.studio {
-  color: #fff;
-  display: inline-block;
-  padding-top: 15px;
-  padding-bottom: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-}
-
-.studio:hover {
-  color: #FFF;
-  background-color: #A66459;
-  background-size: contain;
-}
-
-.contact {
-  color: #fff;
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-  padding-top: 15px;
-  padding-bottom: 12px;
-}
-
-.contact:hover {
-  color: #000;
-  background-color: #F9DBAE;
-  background-size: contain;
 }
 
 .landing {

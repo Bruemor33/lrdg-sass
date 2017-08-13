@@ -36,11 +36,6 @@ li {
   padding: 0;
 }
 
-
-
-#sea-isle-background {
-
-}
 /** Project Title **/
 .plaza-title {
   display: inline-block;
@@ -250,26 +245,6 @@ MEDIA QUERIES
 		height: 1080px;
     }
 
-	/*#plaza-one {
-		height: 1080px;
-	}
-
-	#plaza-two {
-		height: 1080px;
-	}
-
-	#plaza-three {
-		height: 1080px;
-	}
-
-	#plaza-four {
-		height: 1080px;
-	}
-
-	#plaza-summary {
-		height: 615px;
-	}*/
-
 	.summary-container {
 		overflow-y: none;
 		height: 620px;
@@ -303,22 +278,6 @@ MEDIA QUERIES
 	.bg-img {
 		  height: 630px;
 	}
-
-	/*#plaza-one {
-	height: 630px;
-	}
-
-	#plaza-two {
-	height: 630px;
-	}
-
-	#plaza-three {
-	height: 630px;
-	}
-
-	#plaza-four {
-	height: 630px;
-	}*/
 
 	#site-nav {
 	top: 520px;
@@ -359,6 +318,7 @@ Mobile Navigation QUERIES
 
 
 
+
 @media(max-width: 415px) and (min-width: 320px) {
 
   .navbar {
@@ -366,8 +326,8 @@ Mobile Navigation QUERIES
     top: 0;
   }
 
-  .fa-bars {
-
+  #site-nav {
+	  top: 0;
   }
 
   .navbar-toggle {
@@ -376,17 +336,21 @@ Mobile Navigation QUERIES
     background-color: #FFF;
   }
 
+  .navbar-right {
+    margin-right: 0 !important;
+  }
+
   .logo {
     height: 85px;
     padding: 0;
     display: inline-block;
-    margin-left: 80%;
+    margin-left: 78% !important;
     position: absolute;
     top: -8px;
   }
 
   .nav-items {
-    width: 375px;
+    width: 100%;
   }
 
   .navbar-default .navbar-nav>li>a.overview {
@@ -394,7 +358,7 @@ Mobile Navigation QUERIES
     color: #000;
     margin-left: 0;
     text-align: center;
-    width: 375px;
+    width: 100%;
   }
 
   .navbar-default .navbar-nav>li>a.projects {
@@ -417,18 +381,37 @@ Mobile Navigation QUERIES
 
   .navbar-default .navbar-nav>li>a.landing {
     background-color: rgba(0, 0, 0, 0.7);
-    width: 375px;
+    width: 100%;
     text-align: center;
     left: 15px;
+  }
+
+  #page-background {
+    position: static;
+    height: 780px;
+  }
+
+  .overview-title {
+    position: relative;
+    padding-top: 4px;
+    top: 80px;
+    width: 100%;
+  }
+
+  .overview-statement {
+    position: relative;
+    top: 100px;
+    width: 320px;
+    height: 540px;
+    margin-left: 5.5%;
   }
 
   .bg-img {
 	  height: 750px;
   }
 
-
   /*********************************************************************
-Page queries
+	Page queries
   *********************************************************************/
 
   #page-background {
@@ -498,6 +481,11 @@ Navigation
 
 
 
+#site-nav {
+	height: 55px;
+	bottom: 4%;
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -506,6 +494,14 @@ Navigation
   margin-left: 0;
 }
 
+.logo {
+  height: 113px;
+  padding: 0;
+  display: inline-block;
+  margin-left: 50px;
+  position: absolute;
+  top: -19px;
+}
 
 .navbar-default {
   background-color: rgba(0, 0, 0, 0.7);
@@ -519,12 +515,14 @@ Navigation
 .navbar {
   border-radius: 0px;
   position: fixed;
+  bottom: 4%;
   width: 100%;
   height: 55px;
 }
 
 .navbar-default .navbar-nav>li>a {
   color: #FFF;
+  padding-top: 17px !important;
 }
 
 .navbar-default .navbar-nav>li>a.overview:hover {
@@ -575,7 +573,7 @@ Navigation
 
 .nav-items {
   display: inline-block;
-  /*width: 600px;*/
+
   height: 55px;
   padding: 0;
   margin: 0;
@@ -586,76 +584,29 @@ Navigation
   font-family: 'Poppins', serif;
   font-size: 20px;
   height: 55px;
-  padding-top: 20px;
+}
+
+
+.nav-items {
+  display: inline-block;
+  height: 55px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-items a {
+  text-decoration: none;
+  font-family: 'Poppins', serif;
+  font-size: 20px;
 }
 
 .overview {
-  color: #fff;
+  color: #000;
   margin-left: 140px;
-  display: inline-block;
-  padding-top: 15px;
-  padding-bottom: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-}
-
-.overview:hover {
-  color: #000;
-  background-color: #AFB38A;
-  background-size: contain;
-}
-
-.projects {
-  color: #FFF;
-  display: inline-block;
-  padding-top: 15px;
-  padding-bottom: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-}
-
-.projects:hover {
-  color: #000;
-  background-color: #E1D6CC;
-  background-size: contain;
-}
-
-.studio {
-  color: #FFF;
-  display: inline-block;
-  padding-top: 15px;
-  padding-bottom: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-}
-
-.studio:hover {
-  color: #000;
-  background-color: #A66459;
-  background-size: contain;
-}
-
-.contact {
-  color: #FFF;
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-  padding-top: 15px;
-  padding-bottom: 12px;
-}
-
-.contact:hover {
-  color: #000;
-  background-color: #F9DBAE;
-  background-size: contain;
 }
 
 .landing {
-  color: #FFF;
+  color: #fff;
   display: inline-block;
   position: relative;
 }

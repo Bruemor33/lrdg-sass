@@ -264,8 +264,7 @@ Mobile Navigation QUERIES
 
 
 
-
-@media(max-width: 375px) and (min-width: 320px) {
+@media(max-width: 415px) and (min-width: 320px) {
 
   .navbar {
     position: relative;
@@ -276,27 +275,27 @@ Mobile Navigation QUERIES
 	  top: 0;
   }
 
-  .fa-bars {
-
-  }
-
   .navbar-toggle {
     margin-top: 10px;
     padding: 6px 10px;
     background-color: #FFF;
   }
 
+  .navbar-right {
+    margin-right: 0 !important;
+  }
+
   .logo {
     height: 85px;
     padding: 0;
     display: inline-block;
-    margin-left: 275px !important;
+    margin-left: 78% !important;
     position: absolute;
     top: -8px;
   }
 
   .nav-items {
-    width: 375px;
+    width: 100%;
   }
 
   .navbar-default .navbar-nav>li>a.overview {
@@ -304,7 +303,7 @@ Mobile Navigation QUERIES
     color: #000;
     margin-left: 0;
     text-align: center;
-    width: 375px;
+    width: 100%;
   }
 
   .navbar-default .navbar-nav>li>a.projects {
@@ -327,7 +326,7 @@ Mobile Navigation QUERIES
 
   .navbar-default .navbar-nav>li>a.landing {
     background-color: rgba(0, 0, 0, 0.7);
-    width: 375px;
+    width: 100%;
     text-align: center;
     left: 15px;
   }

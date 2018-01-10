@@ -1,0 +1,761 @@
+
+
+
+/*********************************************************************************************
+Projects Page
+*********************************************************************************************/
+
+
+
+
+li {
+  list-style: none;
+}
+
+
+
+
+
+/***********************************************************************************************
+Projects Page
+***********************************************************************************************/
+
+
+
+
+body {
+  background-color: #2E2E2E;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.project-one-container {
+  margin-top: 40px;
+}
+
+.page-background {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../images/background-bench.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+
+
+/*************************************************************
+Plaza at University
+*************************************************************/
+
+.plaza-landing {
+  margin-bottom: 10px;
+}
+.plaza-landing a {
+  text-decoration: none;
+  color: #FFF;
+}
+.plaza-landing h3 {
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.plaza-landing p {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 10px;
+}
+
+.top {
+  width: 250px;
+}
+
+.hover-effect-2 {
+  position: relative;
+  width: 250px;
+  height: 167px;
+  overflow: hidden;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.hover-effect-2 p, .hover-effect-2 h3 {
+  color: #FFF;
+  padding: 2px;
+  left: -20px;
+  top: 2px;
+  position: relative;
+}
+.effect img {
+  position:absolute;
+  left:0;
+  bottom:0;
+  cursor:pointer;
+  /*// margin:-12px 0;*/
+  -webkit-transition:bottom .3s ease-in-out;
+  -moz-transition:bottom .3s ease-in-out;
+  -o-transition:bottom .3s ease-in-out;
+  transition:bottom .3s ease-in-out
+}
+.effect img.top:hover {
+  bottom: -130px;
+  padding-top: 108px;
+}
+h2.zero, p.zero {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*************************************************************
+Nona Park Landing
+*************************************************************/
+
+.nonapark-landing {
+  margin-bottom: 10px;
+  color: #FADCAE;
+}
+.nonapark-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.nonapark-landing h3 {
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.nonapark-landing p {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+  padding-top: -3px;
+}
+
+
+
+
+/*************************************************************
+Kindred
+*************************************************************/
+
+.kindred-writeup {
+  border-radius: 15px;
+  margin-bottom: 10px;
+  color: #FADCAE;
+
+}
+.kindred-writeup a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+
+.transparent-background {
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+  background-color: rgba( 0, 0, 0, 0.4);
+  position: relative;
+  bottom: 20px;
+  right: 15px;
+  -webkit-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.85);
+}
+
+.kindred-writeup h3 {
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.kindred-writeup p {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+/*************************************************************
+Waterleigh
+*************************************************************/
+
+.waterleigh-landing {
+  margin-bottom: 10px;
+  color: #FADCAE;
+}
+.waterleigh-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.waterleigh-landing h3 {
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.waterleigh-landing p {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+
+/*************************************************************
+Sea Isle
+*************************************************************/
+
+.seaisle-landing {
+  margin-bottom: 10px;
+}
+.seaisle-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.seaisle-landing h3 {
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.seaisle-landing p {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+/*************************************************************
+Altis at Sandlake
+*************************************************************/
+
+.altis-landing {
+  margin-bottom: 10px;
+}
+.altis-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.altis-landing h3 {
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.altis-landing p {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+/*************************************************************
+Dwell at Nona Place
+*************************************************************/
+
+.dwell-landing {
+  margin-bottom: 10px;
+}
+.dwell-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.dwell-landing h3 {
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.dwell-landing p {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+
+
+
+/*************************************************************
+Las Ventanas
+*************************************************************/
+
+
+
+
+.ventanas-landing {
+  margin-bottom: 10px;
+}
+
+.ventanas-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.ventanas-landing h3 {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.ventanas-landing p {
+  font-family: "Poppins", serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+
+
+/*************************************************************
+Las Brisas
+*************************************************************/
+
+
+
+
+.brisas-landing {
+  margin-bottom: 50px;
+}
+
+.brisas-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.brisas-landing h3 {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.brisas-landing p {
+  font-family: "Poppins", serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+.harmony-landing {
+  margin-bottom: 50px;
+}
+
+.harmony-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.harmony-landing h3 {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.harmony-landing p {
+  font-family: "Poppins", serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+
+
+/***********************************************************************************************
+Projects Page Media Queries
+***********************************************************************************************/
+
+
+
+
+/*********************************************************************************************
+Projects Page
+*********************************************************************************************/
+
+
+
+
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
+
+
+
+@media(max-height: 1920px) and (max-width: 2460px) and (min-width: 1441px) {
+
+  .nav-items {
+    width: 600px;
+  }
+
+  .landing {
+    margin-left: 60%;
+  }
+
+  .project-one-container {
+    margin-left: 3%;
+  }
+
+  .hover-effect-2 {
+    height: 190px;
+    width: 285px;
+  }
+
+  .top {
+    width: 285px;
+  }
+
+  .mobile-label {
+    display: none;
+  }
+
+}
+
+@media(max-height: 1079px) and (min-height: 610px) and (max-width: 1440px) and (min-width: 1261px) {
+
+  .project-one-container {
+    margin-left: 10px;
+    height: 700px;
+  }
+
+  .nav-items {
+    width: 600px;
+  }
+
+  .landing {
+    margin-left: 50%;
+  }
+
+  .mobile-label {
+    display: none;
+  }
+
+}
+
+
+
+
+/**************************************************************************************
+Mobile Navigation QUERIES
+**************************************************************************************/
+
+
+
+
+
+@media(max-width: 415px) and (min-width: 320px) {
+
+  .navbar {
+    position: relative;
+    top: 0;
+  }
+
+  #site-nav {
+	  top: 0;
+  }
+
+  .navbar-toggle {
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: #FFF;
+  }
+
+  .navbar-right {
+    margin-right: 0 !important;
+  }
+
+  .logo {
+    height: 85px;
+    padding: 0;
+    display: inline-block;
+    margin-left: 78% !important;
+    position: absolute;
+    top: -8px;
+  }
+
+  .nav-items {
+    width: 100%;
+  }
+
+  .navbar-default .navbar-nav>li>a.overview {
+    background-color: #AFB38A;
+    color: #000;
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-default .navbar-nav>li>a.projects {
+    background-color: #E1D6CC;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.studio {
+    background-color: #A66459;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.contact {
+    background-color: #F9DBAE;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.landing {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    text-align: center;
+    left: 15px;
+  }
+
+  #page-background {
+    position: static;
+    height: 780px;
+  }
+
+  .overview-title {
+    position: relative;
+    padding-top: 4px;
+    top: 80px;
+    width: 100%;
+  }
+
+  .overview-statement {
+    position: relative;
+    top: 100px;
+    width: 320px;
+    height: 540px;
+    margin-left: 5.5%;
+  }
+
+
+
+}
+
+  /***********************************************************
+  PAGE Queries
+  ***********************************************************/
+
+  #page-background {
+    position: static;
+    height: 900px;
+  }
+
+  .title {
+    position: relative;
+    padding-top: 4px;
+    top: 80px;
+    width: 100%;
+    font-size: 45px;
+  }
+
+  .mobile-sizing {
+    font-size: 23px;
+  }
+
+  .project-one-container {
+    top: 40px
+  }
+
+  .top {
+    width: 300px;
+  }
+
+  .hover-effect-2 {
+    width: 300px;
+  }
+
+  .mobile-label {
+    margin: 0;
+    color: #FFF;
+    width: 300px;
+    height: 40px;
+    padding-left: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+}
+
+
+
+
+/**************************************************************************************
+Mobile Navigation QUERIES
+**************************************************************************************/
+
+
+
+
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
+
+
+
+
+
+/*********************************************************************
+Navigation
+*********************************************************************/
+
+
+
+#site-nav {
+	height: 55px;
+	bottom: 4%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin-left: 0;
+}
+
+.logo {
+  height: 113px;
+  padding: 0;
+  display: inline-block;
+  margin-left: 50px;
+  position: absolute;
+  top: -19px;
+}
+
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggle {
+  float: none;
+}
+
+.navbar {
+  border-radius: 0px;
+  position: fixed;
+  bottom: 4%;
+  width: 100%;
+  height: 55px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+  padding-top: 17px !important;
+}
+
+.navbar-default .navbar-nav>li>a.overview:hover {
+  color: #000;
+  background-color: #AFB38A;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.projects:hover {
+  color: #000;
+  background-color: #E1D6CC;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.studio:hover {
+  color: #FFF;
+  background-color: #A66459;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.contact:hover {
+  color: #000;
+  background-color: #F9DBAE;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.landing:hover {
+  color: #F9DBAE;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: #000;
+  background-color: #E1D6CC;
+}
+
+.navbar-right {
+  margin-right: 85px;
+}
+
+
+
+#site-nav {
+  position: fixed;
+  width: 100%;
+  /*z-index: 10;*/
+}
+
+
+.nav-items {
+  display: inline-block;
+
+  height: 55px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  height: 55px;
+}
+
+
+.nav-items {
+  display: inline-block;
+  height: 55px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-items a {
+  text-decoration: none;
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+}
+
+.overview {
+  color: #000;
+  margin-left: 140px;
+}
+
+.landing {
+  color: #fff;
+  display: inline-block;
+  position: relative;
+}
+
+.landing:hover {
+  color: #F9DBAE;
+}
+
+
+
+/*********************************************************************
+Navigation
+*********************************************************************/

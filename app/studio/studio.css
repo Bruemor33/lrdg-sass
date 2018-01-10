@@ -1,0 +1,658 @@
+
+
+
+
+
+
+
+
+/**********************************************************************************************
+Studio PAGE
+**********************************************************************************************/
+
+
+
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin-left: 0;
+}
+
+.practice-container {
+  padding: 0;
+}
+
+
+/*********************************************************************
+General Page styling
+*********************************************************************/
+
+
+
+
+.studio-background {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../images/studio-background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.title-spacing {
+  padding-top: 10px;
+}
+
+.studio-content-container {
+	margin-left: 23% !important;
+	margin-top: 13% !important;
+}
+
+.studio-title {
+  top: 20px;
+  width: 500px;
+  height: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: -5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FFF;
+  font-family: 'Poppins', serif;
+  font-weight: 100;
+  font-size: 44px;
+}
+.studio-tittle h2 {
+  position: relative;
+  top: 40px;
+}
+
+.title {
+  position: fixed;
+  top: 20px;
+  width: 500px;
+  height: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: -5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FFF;
+  font-family: 'Poppins', serif;
+  font-weight: 300;
+  font-size: 44px;
+}
+
+
+
+
+/*********************************************************************
+General Page styling
+*********************************************************************/
+
+
+
+
+
+/*********************************************************************
+Barry styling
+*********************************************************************/
+
+
+
+
+.barry-title {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 70px;
+  width: 300px;
+  color: #FFF;
+  position: relative;
+  bottom: 10px;
+}
+
+.barry-title h5 {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.barry-photo {
+  background: url('../images/1-barry.png');
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+  width: 300px;
+}
+
+.toggle-icon {
+  position: absolute;
+  left: 280px;
+  top: 226px;
+  color: #000;
+}
+
+.modal-picture-barry {
+  background: url('../images/1-barry.png');
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+  width: 200px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.modal-close {
+  float: right;
+  margin-bottom: 10px;
+}
+
+
+
+
+/*********************************************************************
+Barry styling
+*********************************************************************/
+
+
+
+
+
+/*********************************************************************
+Scott styling
+*********************************************************************/
+
+
+
+
+.scott-title {
+  position: relative;;
+  bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 70px;
+  width: 300px;
+  color: #FFF;
+
+}
+
+.scott-title h5 {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.scott-photo {
+  background: url('../images/2-scott.png');
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+  width: 300px;
+}
+
+.modal-picture-scott {
+  background: url('../images/2-scott.png');
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+  width: 200px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.scott-writeup {
+  width: 750px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+
+
+
+/*********************************************************************
+Scott styling
+*********************************************************************/
+
+
+
+
+/**********************************************************************************************
+Studio PAGE
+**********************************************************************************************/
+
+
+
+
+
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
+
+
+
+@media(max-height: 1920px) and (max-width: 2460px) and (min-width: 1441px) {
+
+  .modal-content {
+    width: 750px;
+    display: inline-block;
+    margin-left: -50px;
+    margin-top: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .nav-items {
+    width: 600px;
+  }
+
+  .landing {
+    margin-left: 60%;
+  }
+
+}
+
+@media(max-height: 1079px) and (min-height: 610px) and (max-width: 1440px) and (min-width: 1261px) {
+
+  .modal-content {
+    width: 750px;
+    display: inline-block;
+    margin-left: -50px;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .nav-items {
+    width: 600px;
+  }
+
+  .landing {
+    margin-left: 50%;
+  }
+
+}
+
+
+
+
+/****************************************************************************************
+Mobile
+****************************************************************************************/
+
+
+
+
+@media(max-width: 426px) and (min-width: 400px) and (max-height: 737px) and (min-height: 735px) {
+
+  .studio-background {
+    width: 414px;
+  }
+
+  .row {
+    margin-right: 0;
+  }
+
+  .title {
+    width: 414px;
+    position: relative;
+    top: 70px;
+    padding-top: 1px;
+  }
+
+  .content-row {
+    margin-right: 0;
+  }
+
+  .studio-content-container {
+    padding-left: 42px;
+  }
+
+}
+
+
+@media(max-width: 375px) and (min-width: 370px) and (max-height: 668px) and (min-height: 666px) {
+
+  .studio-background {
+    width: 375px;
+  }
+
+  .row {
+    margin-right: 0;
+  }
+
+  /*.studio-title {
+    width: 375px;
+    position: relative;
+    top: 65px;
+    padding-top: 1px;
+  }*/
+
+  .content-row {
+    margin-right: 0;
+  }
+
+  .studio-content-container {
+    padding-left: 22px;
+  }
+
+}
+
+
+@media(max-width: 361px) and (min-width: 359px) and (max-height: 641px) and (min-height: 639px) {
+
+  .studio-background {
+    width: 360px;
+  }
+
+  .row {
+    margin-right: 0;
+  }
+
+
+
+  .content-row {
+    margin-right: 0;
+  }
+
+  .studio-content-container {
+    padding-left: 15px;
+  }
+
+}
+
+
+@media(max-height: 569px) and (min-height: 479px) and (max-width: 321px) and (min-width: 319px) {
+
+  .studio-background {
+    width: 320px;
+  }
+
+  .row {
+    margin-right: 0;
+  }
+
+  /*.studio-title {
+    width: 320px;
+    position: relative;
+    top: 65px;
+    padding-top: 1px;
+  }*/
+
+  .content-row {
+    margin-right: 0;
+  }
+
+  .studio-content-container {
+    padding-left: 0;
+  }
+
+}
+
+
+
+
+/**************************************************************************************
+Mobile Navigation QUERIES
+**************************************************************************************/
+
+
+
+@media(max-width: 415px) and (min-width: 320px) {
+
+  .navbar {
+    position: relative;
+    top: 0;
+  }
+
+  #site-nav {
+	  top: 0;
+  }
+
+  .navbar-toggle {
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: #FFF;
+  }
+
+  .navbar-right {
+    margin-right: 0 !important;
+  }
+
+  .logo {
+    height: 85px;
+    padding: 0;
+    display: inline-block;
+    margin-left: 78% !important;
+    position: absolute;
+    top: -8px;
+  }
+
+  .nav-items {
+    width: 100%;
+  }
+
+  .navbar-default .navbar-nav>li>a.overview {
+    background-color: #AFB38A;
+    color: #000;
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-default .navbar-nav>li>a.projects {
+    background-color: #E1D6CC;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.studio {
+    background-color: #A66459;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.contact {
+    background-color: #F9DBAE;
+    color: #000;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a.landing {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    text-align: center;
+    left: 15px;
+  }
+
+  #page-background {
+    position: static;
+    height: 780px;
+  }
+
+  .title {
+    position: relative;
+    padding-top: 4px;
+    top: 80px;
+    width: 100%;
+  }
+
+  .studio-content-container {
+    top: 150px;
+	margin-left: 0 !important;
+	margin-top: 0 !important;
+  }
+
+  .overview-statement {
+    position: relative;
+    top: 100px;
+    width: 320px;
+    height: 540px;
+    margin-left: 7%;
+  }
+
+
+
+}
+
+
+
+
+/**************************************************************************************
+Mobile Navigation QUERIES
+**************************************************************************************/
+
+
+
+
+/****************************************************************************************
+Mobile
+****************************************************************************************/
+
+
+
+/**************************************************************************************
+MEDIA QUERIES
+**************************************************************************************/
+
+
+
+/*********************************************************************
+Navigation
+*********************************************************************/
+
+
+
+.navbar {
+	bottom: 4%;
+}
+
+#site-nav {
+	height: 55px;
+	bottom: 4%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin-left: 0;
+}
+
+.logo {
+  height: 113px;
+  padding: 0;
+  display: inline-block;
+  margin-left: 50px;
+  position: absolute;
+  top: -19px;
+}
+
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggle {
+  float: none;
+}
+
+.navbar {
+  border-radius: 0px;
+  position: fixed;
+  width: 100%;
+  height: 55px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+  padding-top: 17px !important;
+}
+
+.navbar-default .navbar-nav>li>a.overview:hover {
+  color: #000;
+  background-color: #AFB38A;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.projects:hover {
+  color: #000;
+  background-color: #E1D6CC;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.studio:hover {
+  color: #FFF;
+  background-color: #A66459;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.contact:hover {
+  color: #000;
+  background-color: #F9DBAE;
+  background-size: contain;
+}
+
+.navbar-default .navbar-nav>li>a.landing:hover {
+  color: #F9DBAE;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: #000;
+  background-color: #A66459;
+}
+
+.navbar-right {
+  margin-right: 85px;
+}
+
+
+
+#site-nav {
+  position: fixed;
+  width: 100%;
+  /*z-index: 10;*/
+}
+
+
+.nav-items {
+  display: inline-block;
+  height: 55px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  font-family: 'Poppins', serif;
+  font-size: 20px;
+  height: 55px;
+}
+
+.overview {
+  color: #000;
+  margin-left: 140px;
+}
+
+.landing {
+  color: #fff;
+  display: inline-block;
+  position: relative;
+}
+
+.landing:hover {
+  color: #F9DBAE;
+}
+
+
+
+/*********************************************************************
+Navigation
+*********************************************************************/
